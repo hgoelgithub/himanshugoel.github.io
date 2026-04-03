@@ -2,30 +2,110 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://himanshugoel.github.io/resources.html</loc>
-    <lastmod>2026-03-28T02:20:33.972Z</lastmod>
+    <lastmod>2026-04-03T04:10:39.895Z</lastmod>
   </url>
   <url>
     <loc>https://himanshugoel.github.io/tutorials.html</loc>
-    <lastmod>2026-04-03T03:18:29.410Z</lastmod>
+    <lastmod>2026-04-03T04:10:39.896Z</lastmod>
   </url>
   <url>
     <loc>https://himanshugoel.github.io/index.html</loc>
-    <lastmod>2026-03-29T21:02:49.000Z</lastmod>
+    <lastmod>2026-04-03T04:10:39.893Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2026-03-26T15:33:20.204Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/rdkit/Chem/nbtests/rdkit-structure-renderer.html</loc>
+    <lastmod>2026-03-26T15:35:45.469Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/rdkit/Contrib/pzc/readme.html</loc>
+    <lastmod>2026-03-26T15:35:43.998Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/numpy-2.4.3.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.html</loc>
+    <lastmod>2026-03-26T15:35:38.561Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/numpy-2.4.3.dist-info/licenses/numpy/random/src/pcg64/LICENSE.html</loc>
+    <lastmod>2026-03-26T15:35:38.559Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/numpy-2.4.3.dist-info/licenses/numpy/random/src/mt19937/LICENSE.html</loc>
+    <lastmod>2026-03-26T15:35:38.554Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/numpy-2.4.3.dist-info/licenses/numpy/fft/pocketfft/LICENSE.html</loc>
+    <lastmod>2026-03-26T15:35:38.551Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/soupsieve-2.8.3.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2026-03-26T15:32:40.580Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/idna-3.11.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2026-03-26T15:32:46.267Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/rdkit-2025.9.3.dist-info/LICENSE.html</loc>
+    <lastmod>2026-03-26T15:35:43.943Z</lastmod>
   </url>
   <url>
     <loc>https://himanshugoel.github.io/research.html</loc>
-    <lastmod>2026-03-28T02:20:33.959Z</lastmod>
+    <lastmod>2026-04-03T04:10:39.894Z</lastmod>
   </url>
   <url>
     <loc>https://himanshugoel.github.io/code.html</loc>
-    <lastmod>2026-03-28T02:20:33.961Z</lastmod>
+    <lastmod>2026-04-03T04:10:39.825Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/pyparsing/ai/best_practices.html</loc>
+    <lastmod>2026-03-26T15:50:40.144Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/httpcore-1.0.9.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2026-03-26T15:33:10.732Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/numpy/random/LICENSE.html</loc>
+    <lastmod>2026-03-26T15:35:38.435Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/numpy-2.4.3.dist-info/licenses/numpy/random/LICENSE.html</loc>
+    <lastmod>2026-03-26T15:35:38.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/numpy-2.4.3.dist-info/licenses/numpy/random/src/sfc64/LICENSE.html</loc>
+    <lastmod>2026-03-26T15:35:38.555Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/numpy-2.4.3.dist-info/licenses/numpy/random/src/philox/LICENSE.html</loc>
+    <lastmod>2026-03-26T15:35:38.560Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/numpy-2.4.3.dist-info/licenses/numpy/random/src/distributions/LICENSE.html</loc>
+    <lastmod>2026-03-26T15:35:38.563Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/rdkit/Chem/Scaffolds/ScaffoldNetwork.html</loc>
+    <lastmod>2026-03-26T15:35:45.445Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/rdkit/Chem/nbtests/github4823.html</loc>
+    <lastmod>2026-03-26T15:35:45.475Z</lastmod>
+  </url>
+  <url>
+    <loc>https://himanshugoel.github.io/webq/lib/python3.13/site-packages/pyzmq-27.1.0.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2026-03-26T15:32:40.829Z</lastmod>
   </url>
   <url>
     <loc>https://himanshugoel.github.io/education.html</loc>
-    <lastmod>2026-04-03T03:08:30.069Z</lastmod>
+    <lastmod>2026-04-03T04:10:39.890Z</lastmod>
   </url>
   <url>
     <loc>https://himanshugoel.github.io/cv.html</loc>
-    <lastmod>2026-03-28T02:20:33.968Z</lastmod>
+    <lastmod>2026-04-03T04:10:39.826Z</lastmod>
   </url>
 </urlset>
