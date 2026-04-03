@@ -5,7 +5,7 @@ project:
 website:
   title: "Himanshu Goel"
   description: "Computational Scientist · Drug Design · AI/ML · Cheminformatics · Bioinformatics"
-  site-url: https://hgoelgithub.github.io
+  site-url: https://himanshugoel.github.io
   repo-url: https://github.com/himanshugoel
 
   navbar:
@@ -14,6 +14,8 @@ website:
         text: Home
       - href: research.qmd
         text: Research
+      - href: education.qmd
+        text: Education & Journey
       - text: Tutorials
         menu:
           - href: tutorials/drug-design.qmd
@@ -34,9 +36,12 @@ website:
         text: CV
     right:
       - icon: github
-        href: https://github.com/himanshu-goel
+        href: https://github.com/himanshugoel
       - icon: linkedin
         href: https://www.linkedin.com/in/himanshu-goel-72a58a5b/
+      - text: "GS"
+        href: https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID&hl=en&sortby=pubdate
+        aria-label: "Google Scholar"
       - icon: envelope
         href: mailto:hgchemical@gmail.com
 

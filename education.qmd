@@ -1,0 +1,401 @@
+---
+title: "Education & Research Journey"
+description: "Academic training, research highlights, and scientific contributions across institutions"
+toc: true
+toc-depth: 2
+page-layout: full
+---
+
+```{=html}
+<style>
+/* ── Timeline ── */
+.timeline { position: relative; padding: 0; list-style: none; }
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 28px;
+  top: 0; bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #1a5276, #148f77, #8e44ad, #d35400);
+}
+.tl-item { display: flex; gap: 24px; margin-bottom: 3rem; position: relative; }
+.tl-dot {
+  width: 56px; height: 56px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; font-size: 1.4rem;
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px currentColor;
+  z-index: 1;
+}
+.tl-dot.work    { background: #eaf3fb; color: #1a5276; box-shadow: 0 0 0 2px #1a5276; }
+.tl-dot.post    { background: #e1f5ee; color: #148f77; box-shadow: 0 0 0 2px #148f77; }
+.tl-dot.phd     { background: #eeedfe; color: #534ab7; box-shadow: 0 0 0 2px #534ab7; }
+.tl-dot.mtech   { background: #faeeda; color: #854f0b; box-shadow: 0 0 0 2px #854f0b; }
+.tl-dot.be      { background: #faece7; color: #993c1d; box-shadow: 0 0 0 2px #993c1d; }
+
+.tl-body { flex: 1; }
+.tl-period { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: #6c757d; margin-bottom: 4px; }
+.tl-title  { font-size: 1.25rem; font-weight: 600; color: #1a2b3c; margin: 0 0 2px; font-family: 'DM Serif Display', serif; }
+.tl-inst   { font-size: 0.95rem; color: #148f77; font-weight: 500; margin-bottom: 10px; }
+.tl-grade  { display: inline-block; background: #eaf3fb; color: #1a5276; font-size: 0.78rem; font-weight: 600; padding: 2px 10px; border-radius: 12px; margin-bottom: 12px; }
+
+/* ── Institution cards ── */
+.inst-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+  background: white;
+}
+.inst-card img {
+  width: 100%; height: 220px;
+  object-fit: cover;
+  display: block;
+}
+.inst-card-body { padding: 1.4rem 1.6rem; }
+.inst-card-body h3 { margin-top: 0; color: #1a5276; }
+
+/* ── Research highlight cards ── */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.5rem;
+}
+.rcard {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.rcard:hover { box-shadow: 0 6px 24px rgba(26,82,118,0.12); transform: translateY(-2px); }
+.rcard img { width: 100%; height: 160px; object-fit: cover; display: block; }
+.rcard-body { padding: 1rem 1.1rem; }
+.rcard-body h4 { margin: 0 0 6px; color: #1a5276; font-size: 0.95rem; font-weight: 600; }
+.rcard-body p  { margin: 0; font-size: 0.85rem; color: #495057; line-height: 1.6; }
+.rcard-tag {
+  display: inline-block;
+  background: #e1f5ee; color: #085041;
+  font-size: 0.72rem; font-weight: 600;
+  padding: 2px 8px; border-radius: 8px;
+  margin: 8px 4px 0 0;
+}
+
+/* ── Skills bars ── */
+.skill-bar-wrap { margin-bottom: 10px; }
+.skill-label { display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 4px; color: #2c3e50; }
+.skill-bar { height: 8px; background: #e9ecef; border-radius: 4px; overflow: hidden; }
+.skill-fill { height: 100%; border-radius: 4px; background: linear-gradient(90deg, #1a5276, #148f77); }
+
+/* ── Award badges ── */
+.award-list { list-style: none; padding: 0; }
+.award-list li {
+  display: flex; align-items: flex-start; gap: 12px;
+  padding: 10px 0; border-bottom: 0.5px solid #e9ecef;
+  font-size: 0.9rem; line-height: 1.5;
+}
+.award-icon { font-size: 1.3rem; flex-shrink: 0; }
+
+/* ── Section divider ── */
+.section-rule { border: none; border-top: 2px solid #d6eaf8; margin: 2.5rem 0; }
+</style>
+```
+
+## Career & education timeline
+
+```{=html}
+<ul class="timeline">
+
+  <li class="tl-item">
+    <div class="tl-dot work">🔬</div>
+    <div class="tl-body">
+      <div class="tl-period">Feb 2022 – Mar 2025</div>
+      <div class="tl-title">Computational Research Scientist II</div>
+      <div class="tl-inst">BHSAI · Henry M. Jackson Foundation for the Advancement of Military Medicine · Frederick, MD</div>
+      <p>Led AI/ML-driven toxicology research on DoD, DTRA, NIH, and AFRL funded projects. Built neurotoxicity assessment pipelines, RNA-Seq toxicogenomics workflows, and deployed generative AI for drug repurposing.</p>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-dot post">⚗️</div>
+    <div class="tl-body">
+      <div class="tl-period">May 2018 – Feb 2022</div>
+      <div class="tl-title">Postdoctoral Researcher</div>
+      <div class="tl-inst">Computer-Aided Drug Design Center · University of Maryland, Baltimore · Advisor: Prof. Alexander D. MacKerell Jr.</div>
+      <p>Developed and deployed SILCS-based computational drug discovery workflows. Created SILCS-MC Water for binding pocket water network prediction. Applied CADD to COVID-19 and hERG safety pharmacology.</p>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-dot phd">🎓</div>
+    <div class="tl-body">
+      <div class="tl-period">Aug 2013 – May 2018</div>
+      <div class="tl-title">PhD · Chemical Engineering</div>
+      <div class="tl-inst">Mississippi State University · Starkville, MS · Advisor: Prof. Neeraj Rai</div>
+      <span class="tl-grade">GPA 3.66 / 4.0</span>
+      <p><em>Thesis: "Modeling Phase and Sorption Equilibria using First Principles Simulations"</em> — Predicted vapor-liquid equilibria, developed force fields, and built Monte Carlo algorithms in CP2K for ionic liquids, hydrofluorocarbons, and environmental contaminants.</p>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-dot mtech">🏛️</div>
+    <div class="tl-body">
+      <div class="tl-period">Jul 2011 – Jul 2013</div>
+      <div class="tl-title">M.Tech · Chemical Engineering</div>
+      <div class="tl-inst">Indian Institute of Technology Hyderabad (IITH) · India</div>
+      <span class="tl-grade">CGPA 9.17 / 10.0 — Institute Rank 1</span>
+      <p>Specialized in interfacial science and computational thermodynamics. Conducted dissipative particle dynamics simulations for interfacial properties of multi-liquid systems. Served as Teaching Assistant for Advanced Chemical Engineering Thermodynamics.</p>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-dot be">🎖️</div>
+    <div class="tl-body">
+      <div class="tl-period">Jun 2007 – Jun 2010</div>
+      <div class="tl-title">B.E. · Chemical Engineering</div>
+      <div class="tl-inst">Bharati Vidyapeeth College of Engineering (BVCOE) · Pune, India</div>
+      <span class="tl-grade">Distinction · Silver Medal (2008)</span>
+      <p>Top-ranked student. Won 1st Prize at MIT Pune for industry-defined problem on "Economical Desulfurization in Refineries" (HPCL sponsored). Won 1st Prize for paper on CO₂ sequestration using biomass at Bhartiyam 2010.</p>
+    </div>
+  </li>
+
+</ul>
+```
+
+<hr class="section-rule">
+
+## Institutions
+
+```{=html}
+<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+
+  <div class="inst-card">
+    <div class="inst-card-body">
+      <h3>Mississippi State University</h3>
+      <p><strong>PhD Chemical Engineering</strong> · 2013–2018<br>
+      Starkville, Mississippi, USA<br>
+      Research in first-principles Monte Carlo simulations, DFT, and force field development under Prof. Neeraj Rai in the Dave C. Swalm School of Chemical Engineering.</p>
+      <a href="https://www.msstate.edu" target="_blank">msstate.edu ↗</a>
+    </div>
+  </div>
+
+  <div class="inst-card">
+    <div class="inst-card-body">
+      <h3>IIT Hyderabad</h3>
+      <p><strong>M.Tech Chemical Engineering</strong> · 2011–2013<br>
+      Hyderabad, Telangana, India<br>
+      CGPA 9.17/10.0. Specialized in computational thermodynamics and interfacial science. Teaching Assistant under Prof. Saptarshi Majumdar.</p>
+      <a href="https://www.iith.ac.in" target="_blank">iith.ac.in ↗</a>
+    </div>
+  </div>
+
+  <div class="inst-card">
+    <div class="inst-card-body">
+      <h3>University of Maryland, Baltimore</h3>
+      <p><strong>Postdoctoral Researcher</strong> · 2018–2022<br>
+      Baltimore, Maryland, USA<br>
+      Computer-Aided Drug Design (CADD) Center, School of Pharmacy, under Prof. Alexander D. MacKerell Jr. — developer of the SILCS technology and CHARMM force field.</p>
+      <a href="https://www.umaryland.edu" target="_blank">umaryland.edu ↗</a>
+    </div>
+  </div>
+
+  <div class="inst-card">
+    <div class="inst-card-body">
+      <h3>Henry M. Jackson Foundation · BHSAI</h3>
+      <p><strong>Computational Research Scientist II</strong> · 2022–2025<br>
+      Frederick, Maryland, USA<br>
+      Biomedical and Health Sciences AI (BHSAI) — DoD-funded computational toxicology and AI/ML research supporting military medicine and public health.</p>
+      <a href="https://www.hjf.org" target="_blank">hjf.org ↗</a>
+    </div>
+  </div>
+
+</div>
+```
+
+<hr class="section-rule">
+
+## Research highlights
+
+### Drug design & CADD (UMB · 2018–2022)
+
+```{=html}
+<div class="research-grid">
+  <div class="rcard">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Protein_structure.png/640px-Protein_structure.png"
+         alt="Protein-ligand binding" loading="lazy"/>
+    <div class="rcard-body">
+      <h4>SILCS-based protein–ligand binding affinity</h4>
+      <p>Benchmarked SILCS relative binding affinities against FEP methods across multiple drug targets. Published in <em>Chem. Sci.</em> 2021 — one of my most-cited papers.</p>
+      <span class="rcard-tag">SILCS</span><span class="rcard-tag">FEP</span><span class="rcard-tag">MD</span>
+    </div>
+  </div>
+  <div class="rcard">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Serotonin-3d-CPK.png/640px-Serotonin-3d-CPK.png"
+         alt="Drug molecule 3D" loading="lazy"/>
+    <div class="rcard-body">
+      <h4>hERG cardiotoxicity prediction</h4>
+      <p>Combined SILCS FragMap features with physicochemical descriptors to predict hERG1 blockade — a critical safety filter in drug development. Published in <em>Chemistry</em> 2022.</p>
+      <span class="rcard-tag">hERG</span><span class="rcard-tag">Safety</span><span class="rcard-tag">ML</span>
+    </div>
+  </div>
+  <div class="rcard">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Sars-cov-2-spike-protein-structure.jpg/640px-Sars-cov-2-spike-protein-structure.jpg"
+         alt="SARS-CoV-2 spike protein" loading="lazy"/>
+    <div class="rcard-body">
+      <h4>COVID-19 antiviral drug discovery</h4>
+      <p>Applied SILCS CADD workflow to SARS-CoV-2 spike protein as part of a rapid-response drug discovery team during the pandemic.</p>
+      <span class="rcard-tag">COVID-19</span><span class="rcard-tag">CADD</span><span class="rcard-tag">Antiviral</span>
+    </div>
+  </div>
+</div>
+```
+
+### Computational toxicology & AI/ML (BHSAI · 2022–2025)
+
+```{=html}
+<div class="research-grid">
+  <div class="rcard">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Heatmap.png/640px-Heatmap.png"
+         alt="Gene expression heatmap" loading="lazy"/>
+    <div class="rcard-body">
+      <h4>Toxicogenomics & RNA-Seq pipelines</h4>
+      <p>Built end-to-end RNA-Seq pipelines for in vivo (rat, guinea pig) and in vitro (human hepatocyte) toxicogenomics studies. Identified DEGs for liver and kidney injury biomarkers.</p>
+      <span class="rcard-tag">RNA-Seq</span><span class="rcard-tag">DESeq2</span><span class="rcard-tag">IVIVE</span>
+    </div>
+  </div>
+  <div class="rcard">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Artificial_neural_network.svg/640px-Artificial_neural_network.svg.png"
+         alt="Neural network" loading="lazy"/>
+    <div class="rcard-body">
+      <h4>ML models for neurotoxicity (GPCR targets)</h4>
+      <p>Developed DNN, GNN, and transformer-based LLM classifiers for active/inactive compound classification against neurotoxicity-relevant GPCR targets from public databases.</p>
+      <span class="rcard-tag">GNN</span><span class="rcard-tag">LLM</span><span class="rcard-tag">Neurotox</span>
+    </div>
+  </div>
+  <div class="rcard">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YAD2K.jpg/640px-YAD2K.jpg"
+         alt="Generative AI molecules" loading="lazy"
+         onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Artificial_neural_network.svg/640px-Artificial_neural_network.svg.png'"/>
+    <div class="rcard-body">
+      <h4>Generative AI for drug repurposing</h4>
+      <p>Applied generative AI techniques to design novel molecular structures and support drug repurposing workflows, integrating LLM-guided generation with ADMET filters.</p>
+      <span class="rcard-tag">Generative AI</span><span class="rcard-tag">LLM</span><span class="rcard-tag">ADMET</span>
+    </div>
+  </div>
+</div>
+```
+
+### First-principles simulations (MSU PhD · 2013–2018)
+
+```{=html}
+<div class="research-grid">
+  <div class="rcard">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Lennard-Jones_Potential.svg/640px-Lennard-Jones_Potential.svg.png"
+         alt="Molecular simulation" loading="lazy"/>
+    <div class="rcard-body">
+      <h4>Vapor–liquid equilibria via DFT & Monte Carlo</h4>
+      <p>Predicted VLE, saturated vapor pressures, and critical properties for hydrofluorocarbons, CO₂, SO₂, and argon using first-principles Monte Carlo in CP2K. 7 publications.</p>
+      <span class="rcard-tag">DFT</span><span class="rcard-tag">Monte Carlo</span><span class="rcard-tag">CP2K</span>
+    </div>
+  </div>
+  <div class="rcard">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Ionic_liquid_structure.svg/640px-Ionic_liquid_structure.svg.png"
+         alt="Ionic liquid structure" loading="lazy"
+         onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Lennard-Jones_Potential.svg/640px-Lennard-Jones_Potential.svg.png'"/>
+    <div class="rcard-body">
+      <h4>CO₂ absorption in ionic liquids</h4>
+      <p>Predicted adsorption equilibria, transport properties, and structural mechanisms for CO₂ absorption in phosphonium-based ionic liquids using first-principles simulations.</p>
+      <span class="rcard-tag">Ionic Liquids</span><span class="rcard-tag">CO₂</span><span class="rcard-tag">DFT</span>
+    </div>
+  </div>
+  <div class="rcard">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/TraPPE_force_field.png/640px-TraPPE_force_field.png"
+         alt="Force field" loading="lazy"
+         onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Lennard-Jones_Potential.svg/640px-Lennard-Jones_Potential.svg.png'"/>
+    <div class="rcard-body">
+      <h4>Force field development & environmental contaminants</h4>
+      <p>Developed TraPPE force fields for chloroethenes and computed octanol-water partition coefficients for NDMA and trichloroethylene — important environmental contaminants.</p>
+      <span class="rcard-tag">TraPPE</span><span class="rcard-tag">Force Field</span><span class="rcard-tag">Environment</span>
+    </div>
+  </div>
+</div>
+```
+
+<hr class="section-rule">
+
+## Technical skill proficiency
+
+```{=html}
+<div style="max-width: 640px;">
+
+<p style="font-size:0.85rem; color:#6c757d; margin-bottom:1.2rem;">Self-assessed proficiency across core competencies</p>
+
+<div class="skill-bar-wrap">
+  <div class="skill-label"><span>Python (scientific computing)</span><span>Expert</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:95%"></div></div>
+</div>
+<div class="skill-bar-wrap">
+  <div class="skill-label"><span>Molecular dynamics & simulation</span><span>Expert</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:93%"></div></div>
+</div>
+<div class="skill-bar-wrap">
+  <div class="skill-label"><span>Machine learning / deep learning</span><span>Advanced</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div>
+</div>
+<div class="skill-bar-wrap">
+  <div class="skill-label"><span>Drug design & CADD (SILCS, Docking)</span><span>Expert</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:95%"></div></div>
+</div>
+<div class="skill-bar-wrap">
+  <div class="skill-label"><span>RNA-Seq / Bioinformatics</span><span>Advanced</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+</div>
+<div class="skill-bar-wrap">
+  <div class="skill-label"><span>Cheminformatics (RDKit)</span><span>Advanced</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:87%"></div></div>
+</div>
+<div class="skill-bar-wrap">
+  <div class="skill-label"><span>Agentic AI / LangGraph / RAG</span><span>Proficient</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:78%"></div></div>
+</div>
+<div class="skill-bar-wrap">
+  <div class="skill-label"><span>DFT / Quantum Chemistry</span><span>Advanced</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+</div>
+<div class="skill-bar-wrap">
+  <div class="skill-label"><span>R (DESeq2, tidyverse)</span><span>Proficient</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+</div>
+
+</div>
+```
+
+<hr class="section-rule">
+
+## Awards & honours
+
+```{=html}
+<ul class="award-list">
+  <li>
+    <span class="award-icon">🥈</span>
+    <span><strong>Silver Medal — 2nd Position</strong>, Diploma in Chemical Engineering, New Delhi, India, 2008</span>
+  </li>
+  <li>
+    <span class="award-icon">🥇</span>
+    <span><strong>1st Rank</strong>, Entrance Examination for Diploma Holders in Chemical Engineering, BVCOE Pune, 2007</span>
+  </li>
+  <li>
+    <span class="award-icon">🏆</span>
+    <span><strong>1st Prize</strong>, Industry-Defined Problem "Economical Desulfurization in Refineries" sponsored by HPCL, MIT College of Engineering, Pune, 2009</span>
+  </li>
+  <li>
+    <span class="award-icon">🏆</span>
+    <span><strong>1st Prize</strong>, Paper Presentation "CO₂ Sequestration by Producing Carbon-Based Fertilizer Using Biomass", Bhartiyam 2010, Pune</span>
+  </li>
+  <li>
+    <span class="award-icon">🪑</span>
+    <span><strong>Poster Chair</strong>, Computational Toxicology I session, Society of Toxicology Annual Meeting, 2024</span>
+  </li>
+</ul>
+```

@@ -9,7 +9,7 @@ toc: false
 
 ::: {.tagline}
 Computational Scientist · Drug Design · AI/ML · Cheminformatics · Bioinformatics  
-📍 Ellicott City, MD · [hgchemical@gmail.com](mailto:hgchemical@gmail.com)
+📍 Ellicott City, MD · [hgchemical@gmail.com](mailto:hgchemical@gmail.com) · [Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID&hl=en&sortby=pubdate)
 :::
 
 ::: {.badge-row}
@@ -50,6 +50,9 @@ I'm a computational scientist with 7+ years of interdisciplinary experience span
 Most recently I was a Computational Research Scientist II at [BHSAI / Henry M. Jackson Foundation](https://www.hjf.org/) (Frederick, MD), working on DoD, DTRA, NIH, and AFRL funded projects. Before that I was a postdoctoral researcher in [Dr. Alex MacKerell's CADD Center](https://www.outerbanks.umaryland.edu/mackerell/) at the University of Maryland, Baltimore, where I developed and applied the [SILCS technology](https://silcsbio.com/) for protein-ligand binding and drug design.
 
 **I'm currently open to new opportunities** in computational drug discovery, AI/ML for life sciences, or research scientist roles. [Get in touch →](mailto:hgchemical@gmail.com)
+
+→ [See my full education & research journey](education.qmd)  
+→ [15 publications on Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID&hl=en&sortby=pubdate)
 
 ---
 

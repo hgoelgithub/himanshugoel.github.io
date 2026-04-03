@@ -1,0 +1,181 @@
+---
+title: "Tutorials"
+description: "Jupyter notebooks for computational science — open in Google Colab with one click, no installation needed"
+toc: false
+page-layout: full
+---
+
+All tutorials are Jupyter notebooks in the
+[computational-science-tutorials](https://github.com/himanshugoel/computational-science-tutorials)
+GitHub repo. Click **Open in Colab** to run any notebook instantly in your browser — no installation required.
+
+::: {.callout-tip}
+## Running in Colab
+Click any badge → sign in with Google → **Runtime → Run All**. All dependencies install automatically inside the notebook.
+To run locally: `git clone https://github.com/himanshugoel/computational-science-tutorials && pip install -r requirements.txt`
+:::
+
+---
+
+## Drug design & CADD
+
+```{=html}
+<table class="tut-table">
+<thead><tr><th>#</th><th>Tutorial</th><th>Description</th><th>Run</th></tr></thead>
+<tbody>
+<tr>
+  <td>1</td>
+  <td><span class="tut-title">Molecular fingerprints & Tanimoto similarity</span><br>
+  <span class="tut-tag">RDKit</span><span class="tut-tag">Fingerprints</span><span class="tut-tag">Similarity</span></td>
+  <td class="tut-desc">Morgan fingerprints, ECFP, Tanimoto similarity, and building your first compound library screen</td>
+  <td><a href="https://colab.research.google.com/github/himanshugoel/computational-science-tutorials/blob/main/drug_design/01_fingerprints_similarity.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+</tr>
+<tr>
+  <td>2</td>
+  <td><span class="tut-title">Lipinski Ro5 & ADMET profiling</span><br>
+  <span class="tut-tag">ADMET</span><span class="tut-tag">Drug-likeness</span><span class="tut-tag">RDKit</span></td>
+  <td class="tut-desc">Screen compound libraries for drug-likeness — MW, LogP, HBD, HBA, TPSA — before expensive docking</td>
+  <td><a href="https://colab.research.google.com/github/himanshugoel/computational-science-tutorials/blob/main/drug_design/02_ro5_admet.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+</tr>
+<tr>
+  <td>3</td>
+  <td><span class="tut-title">Virtual screening with AutoDock Vina</span><br>
+  <span class="tut-tag">Docking</span><span class="tut-tag">Vina</span><span class="tut-tag">Virtual Screening</span></td>
+  <td class="tut-desc">Set up and run a docking campaign against a PDB target using Python wrappers around AutoDock Vina</td>
+  <td><a href="https://colab.research.google.com/github/himanshugoel/computational-science-tutorials/blob/main/drug_design/03_vina_screening.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+</tr>
+<tr>
+  <td>4</td>
+  <td><span class="tut-title">hERG cardiotoxicity prediction</span><br>
+  <span class="tut-tag">hERG</span><span class="tut-tag">Safety</span><span class="tut-tag">ML</span></td>
+  <td class="tut-desc">Build an ML model combining physicochemical descriptors to flag hERG blockers early in drug design</td>
+  <td><a href="https://colab.research.google.com/github/himanshugoel/computational-science-tutorials/blob/main/drug_design/04_herg_prediction.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+</tr>
+</tbody>
+</table>
+```
+
+---
+
+## Cheminformatics
+
+```{=html}
+<table class="tut-table">
+<thead><tr><th>#</th><th>Tutorial</th><th>Description</th><th>Run</th></tr></thead>
+<tbody>
+<tr>
+  <td>5</td>
+  <td><span class="tut-title">RDKit from scratch</span><br>
+  <span class="tut-tag">RDKit</span><span class="tut-tag">Basics</span><span class="tut-tag">Descriptors</span></td>
+  <td class="tut-desc">Load, draw, and compute properties of molecules — the essential starting point for all cheminformatics</td>
+  <td><a href="https://colab.research.google.com/github/himanshugoel/computational-science-tutorials/blob/main/cheminformatics/05_rdkit_basics.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><span class="tut-title">Chemical space visualization with UMAP</span><br>
+  <span class="tut-tag">UMAP</span><span class="tut-tag">PCA</span><span class="tut-tag">Chemical Space</span></td>
+  <td class="tut-desc">Visualize thousands of compounds in 2D using PCA and UMAP of Morgan fingerprints with matplotlib</td>
+  <td><a href="https://colab.research.google.com/github/himanshugoel/computational-science-tutorials/blob/main/cheminformatics/06_chemical_space_umap.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><span class="tut-title">SMARTS substructure search</span><br>
+  <span class="tut-tag">SMARTS</span><span class="tut-tag">Substructure</span><span class="tut-tag">Functional Groups</span></td>
+  <td class="tut-desc">Write SMARTS patterns to search for functional groups, ring systems, and pharmacophore features</td>
+  <td><a href="https://colab.research.google.com/github/himanshugoel/computational-science-tutorials/blob/main/cheminformatics/07_smarts_search.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+</tr>
+</tbody>
+</table>
+```
+
+---
+
+## Bioinformatics & toxicogenomics
+
+```{=html}
+<table class="tut-table">
+<thead><tr><th>#</th><th>Tutorial</th><th>Description</th><th>Run</th></tr></thead>
+<tbody>
+<tr>
+  <td>8</td>
+  <td><span class="tut-title">RNA-Seq QC & differential expression</span><br>
+  <span class="tut-tag">RNA-Seq</span><span class="tut-tag">DESeq2</span><span class="tut-tag">PyDESeq2</span></td>
+  <td class="tut-desc">End-to-end pipeline from raw count matrix through DESeq2 differential expression and volcano plot</td>
+  <td><a href="https://colab.research.google.com/github/himanshugoel/computational-science-tutorials/blob/main/bioinformatics/08_rnaseq_deseq2.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+</tr>
+<tr>
+  <td>9</td>
+  <td><span class="tut-title">In vitro–in vivo correlation (IVIVE)</span><br>
+  <span class="tut-tag">IVIVE</span><span class="tut-tag">Toxicology</span><span class="tut-tag">Cross-species</span></td>
+  <td class="tut-desc">Correlate gene expression changes between animal models and human hepatocytes for translational toxicology</td>
+  <td><a href="https://colab.research.google.com/github/himanshugoel/computational-science-tutorials/blob/main/bioinformatics/09_ivive_correlation.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+</tr>
+<tr>
+  <td>10</td>
+  <td><span class="tut-title">MEA neurotoxicity & dose-response modeling</span><br>
+  <span class="tut-tag">MEA</span><span class="tut-tag">Neurotox</span><span class="tut-tag">Dose-Response</span></td>
+  <td class="tut-desc">Process Multi-Electrode Array data and fit dose-response curves with tcplfit2 for chemical neurotoxicity</td>
+  <td><a href="https://colab.research.google.com/github/himanshugoel/computational-science-tutorials/blob/main/bioinformatics/10_mea_dose_response.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+</tr>
+</tbody>
+</table>
+```
+
+---
+
+## Agentic AI for science
+
+```{=html}
+<table class="tut-table">
+<thead><tr><th>#</th><th>Tutorial</th><th>Description</th><th>Run</th></tr></thead>
+<tbody>
+<tr>
+  <td>11</td>
+  <td><span class="tut-title">RAG pipeline over scientific literature</span><br>
+  <span class="tut-tag">RAG</span><span class="tut-tag">LangChain</span><span class="tut-tag">PubMed</span></td>
+  <td class="tut-desc">Build a retrieval-augmented system that answers drug-target questions from your paper corpus + PubMed</td>
+  <td><a href="https://colab.research.google.com/github/himanshugoel/computational-science-tutorials/blob/main/agentic_ai/11_rag_pubmed.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+</tr>
+<tr>
+  <td>12</td>
+  <td><span class="tut-title">LangGraph agent: ChEMBL + PubChem</span><br>
+  <span class="tut-tag">LangGraph</span><span class="tut-tag">ChEMBL</span><span class="tut-tag">Agentic AI</span></td>
+  <td class="tut-desc">A multi-step agent that retrieves structures, queries ChEMBL bioactivity data, and summarizes findings</td>
+  <td><a href="https://colab.research.google.com/github/himanshugoel/computational-science-tutorials/blob/main/agentic_ai/12_langgraph_chembl.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+</tr>
+</tbody>
+</table>
+```
+
+---
+
+## Machine learning & deep learning
+
+```{=html}
+<table class="tut-table">
+<thead><tr><th>#</th><th>Tutorial</th><th>Description</th><th>Run</th></tr></thead>
+<tbody>
+<tr>
+  <td>13</td>
+  <td><span class="tut-title">Classical ML baseline for QSAR</span><br>
+  <span class="tut-tag">Random Forest</span><span class="tut-tag">XGBoost</span><span class="tut-tag">QSAR</span></td>
+  <td class="tut-desc">Build RF and XGBoost classifiers for molecular activity — always establish this baseline before deep learning</td>
+  <td><a href="https://colab.research.google.com/github/himanshugoel/computational-science-tutorials/blob/main/ml_dl/13_qsar_classical_ml.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+</tr>
+<tr>
+  <td>14</td>
+  <td><span class="tut-title">Graph Neural Networks for molecules</span><br>
+  <span class="tut-tag">GNN</span><span class="tut-tag">PyTorch Geometric</span><span class="tut-tag">DeepChem</span></td>
+  <td class="tut-desc">Build a GCN treating molecules as graphs — atoms as nodes, bonds as edges — for property prediction</td>
+  <td><a href="https://colab.research.google.com/github/himanshugoel/computational-science-tutorials/blob/main/ml_dl/14_gnn_molecules.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+</tr>
+<tr>
+  <td>15</td>
+  <td><span class="tut-title">Fine-tuning ChemBERTa for toxicity</span><br>
+  <span class="tut-tag">Transformer</span><span class="tut-tag">ChemBERTa</span><span class="tut-tag">Transfer Learning</span></td>
+  <td class="tut-desc">Fine-tune a pre-trained molecular transformer on a toxicity dataset using HuggingFace Transformers</td>
+  <td><a href="https://colab.research.google.com/github/himanshugoel/computational-science-tutorials/blob/main/ml_dl/15_chemberta_finetune.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+</tr>
+</tbody>
+</table>
+```
