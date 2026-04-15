@@ -4,96 +4,173 @@ description: "Publications, conference contributions, and professional involveme
 toc: true
 ---
 
+```{=html}
+<style>
+.pub-entry { margin-bottom: 1.6rem; padding-bottom: 1.4rem; border-bottom: 1px solid #e9ecef; }
+.pub-year  { font-weight: 700; color: #1a5276; font-size: 0.85rem; }
+.pub-title { font-weight: 600; font-size: 1rem; color: #1a2b3c; display: block; margin: 4px 0 2px; }
+.pub-journal { font-size: 0.88rem; color: #555; display: block; margin-bottom: 6px; }
+.pub-note  { font-size: 0.83rem; color: #6c757d; font-style: italic; display: block; margin-bottom: 7px; line-height: 1.5; }
+.pub-tags  { display: flex; flex-wrap: wrap; gap: 5px; }
+.pub-tag   {
+  display: inline-block;
+  background: #eaf3fb; color: #1a5276;
+  font-size: 0.72rem; font-weight: 600;
+  padding: 2px 9px; border-radius: 10px;
+}
+</style>
+```
+
 ## Journal publications
 
 ::: {.pub-entry}
-[2024]{.pub-year} &nbsp;
-[Probing liver injuries induced by thioacetamide in human *in vitro* pooled hepatocyte experiments]{.pub-title}  
+[2024]{.pub-year}
+[Probing liver injuries induced by thioacetamide in human *in vitro* pooled hepatocyte experiments]{.pub-title}
 [**Goel H**, Printz RL, Pannala VR, AbdulHameed MDM, Wallqvist A. *Int. J. Mol. Sci.* 2024, 25, 3265]{.pub-journal}
+[Identified transcriptomic biomarkers of drug-induced liver injury (DILI) using RNA-Seq on human pooled hepatocytes exposed to thioacetamide — supporting safer chemical risk assessment.]{.pub-note}
+::: {.pub-tags}
+[RNA-Seq]{.pub-tag} [DILI]{.pub-tag} [Hepatotoxicity]{.pub-tag} [Biomarkers]{.pub-tag} [Toxicogenomics]{.pub-tag}
+:::
 :::
 
 ::: {.pub-entry}
-[2024]{.pub-year} &nbsp;
-[Modeling Ligand Binding Site Water Networks with SILCS: Impact on Ligand Binding Orientations and Relative Binding Affinities]{.pub-title}  
+[2024]{.pub-year}
+[Modeling Ligand Binding Site Water Networks with SILCS: Impact on Ligand Binding Orientations and Relative Binding Affinities]{.pub-title}
 [Kumar A, **Goel H**, Yu W, Zhao M, MacKerell Jr. AD. *J. Chem. Theory Comput.* 2024, 20, 11032–11048]{.pub-journal}
+[Demonstrated that explicitly modeling water networks in protein binding pockets with SILCS-MC Water significantly improves prediction of drug binding pose and affinity — key for rational drug design.]{.pub-note}
+::: {.pub-tags}
+[Water Networks]{.pub-tag} [Binding Affinity]{.pub-tag} [SILCS]{.pub-tag} [Drug Design]{.pub-tag} [MD]{.pub-tag}
+:::
 :::
 
 ::: {.pub-entry}
-[2023]{.pub-year} &nbsp;
-[Assessing kidney injury induced by mercuric chloride in guinea pigs with *in vivo* and *in vitro* experiments]{.pub-title}  
+[2023]{.pub-year}
+[Assessing kidney injury induced by mercuric chloride in guinea pigs with *in vivo* and *in vitro* experiments]{.pub-title}
 [**Goel H**, Printz RL, Shiota C, Estes SK, Pannala VR, AbdulHameed MDM, Shiota M, Wallqvist A. *Int. J. Mol. Sci.* 2023, 24, 7434]{.pub-journal}
+[Cross-species toxicogenomics study bridging in vivo guinea pig and in vitro models to identify kidney injury biomarkers — advancing translational safety assessment for heavy metal toxicity.]{.pub-note}
+::: {.pub-tags}
+[Nephrotoxicity]{.pub-tag} [RNA-Seq]{.pub-tag} [Cross-Species]{.pub-tag} [IVIVE]{.pub-tag} [Heavy Metals]{.pub-tag}
+:::
 :::
 
 ::: {.pub-entry}
-[2022]{.pub-year} &nbsp;
-[Application of SILCS in Computer-Aided Drug Design]{.pub-title}  
+[2022]{.pub-year}
+[Application of SILCS in Computer-Aided Drug Design]{.pub-title}
 [**Goel H**, Hazel A, Yu W, Jo S, MacKerell Jr. AD. *New J. Chem.* 2022, 46, 919–932]{.pub-journal}
+[Comprehensive review and demonstration of the SILCS CADD workflow — from FragMaps to pharmacophore modeling and virtual screening — making the technology accessible for the broader drug discovery community.]{.pub-note}
+::: {.pub-tags}
+[CADD]{.pub-tag} [Virtual Screening]{.pub-tag} [Pharmacophore]{.pub-tag} [SILCS]{.pub-tag} [FragMaps]{.pub-tag}
+:::
 :::
 
 ::: {.pub-entry}
-[2022]{.pub-year} &nbsp;
-[hERG Blockade prediction by combining SILCS and Physicochemical Properties]{.pub-title}  
+[2022]{.pub-year}
+[hERG Blockade prediction by combining SILCS and Physicochemical Properties]{.pub-title}
 [**Goel H**, Yu W, MacKerell Jr. AD. *Chemistry* 2022, 4, 630–646]{.pub-journal}
+[Combined 3D molecular interaction maps (SILCS) with physicochemical descriptors to predict hERG1 cardiac ion channel blockade — a critical early-stage safety filter that can flag cardiotoxic compounds before costly experiments.]{.pub-note}
+::: {.pub-tags}
+[hERG]{.pub-tag} [Cardiotoxicity]{.pub-tag} [Safety Pharmacology]{.pub-tag} [ML]{.pub-tag} [SILCS]{.pub-tag}
+:::
 :::
 
 ::: {.pub-entry}
-[2021]{.pub-year} &nbsp;
-[Rapid and Accurate Estimation of Protein–Ligand Relative Binding Affinities using SILCS]{.pub-title}  
+[2021]{.pub-year}
+[Rapid and Accurate Estimation of Protein–Ligand Relative Binding Affinities using SILCS]{.pub-title}
 [**Goel H**, Hazel A, Ustach V, Jo S, Yu W, MacKerell Jr. AD. *Chem. Sci.* 2021, 12, 8844–8858]{.pub-journal}
+[Validated SILCS as a fast, accurate alternative to computationally expensive FEP for ranking drug candidates by binding affinity — enabling higher-throughput lead optimization.]{.pub-note}
+::: {.pub-tags}
+[Binding Affinity]{.pub-tag} [FEP]{.pub-tag} [Lead Optimization]{.pub-tag} [SILCS]{.pub-tag} [Virtual Screening]{.pub-tag}
+:::
 :::
 
 ::: {.pub-entry}
-[2020]{.pub-year} &nbsp;
-[Impact of Electronic Polarizability on Protein Functional Group Interactions]{.pub-title}  
+[2020]{.pub-year}
+[Impact of Electronic Polarizability on Protein Functional Group Interactions]{.pub-title}
 [**Goel H**, Yu W, Ustach V, Aytenfisu AH, Sun D, MacKerell Jr. AD. *Phys. Chem. Chem. Phys.* 2020, 22, 6848]{.pub-journal}
+[Quantified how including electronic polarizability (Drude force field) changes affinity patterns for protein functional groups — informing more physically accurate force field design for drug discovery.]{.pub-note}
+::: {.pub-tags}
+[Polarizable Force Field]{.pub-tag} [Drude]{.pub-tag} [Protein Interactions]{.pub-tag} [CHARMM]{.pub-tag} [SILCS]{.pub-tag}
+:::
 :::
 
 ::: {.pub-entry}
-[2019]{.pub-year} &nbsp;
-[Absorption of CO₂ in Triethyl(butyl)phosphonium 2-Cyanopyrrolide Ionic Liquid via First Principles Simulations]{.pub-title}  
+[2019]{.pub-year}
+[Absorption of CO₂ in Triethyl(butyl)phosphonium 2-Cyanopyrrolide Ionic Liquid via First Principles Simulations]{.pub-title}
 [**Goel H**, Windom Z, Jackson A, Rai N. *J. Mol. Liq.* 2019, 292, 111323]{.pub-journal}
+[First-principles prediction of CO₂ capture capacity and structural mechanisms in a phosphonium ionic liquid — relevant to designing next-generation carbon capture solvents.]{.pub-note}
+::: {.pub-tags}
+[CO₂ Capture]{.pub-tag} [Ionic Liquids]{.pub-tag} [DFT]{.pub-tag} [Carbon Capture]{.pub-tag} [Monte Carlo]{.pub-tag}
+:::
 :::
 
 ::: {.pub-entry}
-[2018]{.pub-year} &nbsp;
-[Predicting Vapor Liquid Equilibria using Density Functional Theory: A Case Study of Argon]{.pub-title}  
+[2018]{.pub-year}
+[Predicting Vapor Liquid Equilibria using Density Functional Theory: A Case Study of Argon]{.pub-title}
 [**Goel H**, Ling S, Ellis BN, Taconi A, Slater B, Rai N. *J. Chem. Phys.* 2018, 148, 224501]{.pub-journal}
+[Established a rigorous benchmark for DFT-based VLE prediction using argon as a model system, guiding selection of exchange-correlation functionals for condensed-phase property prediction.]{.pub-note}
+::: {.pub-tags}
+[DFT]{.pub-tag} [VLE]{.pub-tag} [Benchmark]{.pub-tag} [Monte Carlo]{.pub-tag} [CP2K]{.pub-tag}
+:::
 :::
 
 ::: {.pub-entry}
-[2018]{.pub-year} &nbsp;
-[Transferable Potentials for Chloroethenes: Insights into Nonideal Solution Behavior of Environmental Contaminants]{.pub-title}  
+[2018]{.pub-year}
+[Transferable Potentials for Chloroethenes: Insights into Nonideal Solution Behavior of Environmental Contaminants]{.pub-title}
 [**Goel H**, Rai N. *ACS Omega* 2018, 3, 3646–3654]{.pub-journal}
+[Developed TraPPE force fields for chlorinated ethenes and explained nonideal mixing behavior — directly applicable to modeling the fate and transport of these common groundwater contaminants.]{.pub-note}
+::: {.pub-tags}
+[Force Field]{.pub-tag} [TraPPE]{.pub-tag} [Environmental Contaminants]{.pub-tag} [Chloroethenes]{.pub-tag} [Monte Carlo]{.pub-tag}
+:::
 :::
 
 ::: {.pub-entry}
-[2018]{.pub-year} &nbsp;
-[Solubility of CO₂ in Triglycerides using Monte Carlo Simulations]{.pub-title}  
+[2018]{.pub-year}
+[Solubility of CO₂ in Triglycerides using Monte Carlo Simulations]{.pub-title}
 [Howlader MS, Venkatesan S, **Goel H**, French WT, Rai N. *Fluid Phase Equilib.* 2018, 476, 39–47]{.pub-journal}
+[Predicted CO₂ solubility in triglycerides via Monte Carlo — important for supercritical CO₂ extraction processes in biodiesel and food processing applications.]{.pub-note}
+::: {.pub-tags}
+[CO₂ Solubility]{.pub-tag} [Triglycerides]{.pub-tag} [Monte Carlo]{.pub-tag} [Biofuels]{.pub-tag} [Phase Equilibria]{.pub-tag}
+:::
 :::
 
 ::: {.pub-entry}
-[2018]{.pub-year} &nbsp;
-[Performance of Density Functionals for Modeling Vapor Liquid Equilibria of CO₂ and SO₂]{.pub-title}  
+[2018]{.pub-year}
+[Performance of Density Functionals for Modeling Vapor Liquid Equilibria of CO₂ and SO₂]{.pub-title}
 [**Goel H**, Jackson A, Windom Z, Rai N. *J. Comp. Chem.* 2018]{.pub-journal}
+[Benchmarked a range of DFT exchange-correlation functionals for predicting phase behavior of acid gases — providing practical guidance for first-principles simulation of carbon capture systems.]{.pub-note}
+::: {.pub-tags}
+[DFT]{.pub-tag} [VLE]{.pub-tag} [CO₂]{.pub-tag} [SO₂]{.pub-tag} [Carbon Capture]{.pub-tag}
+:::
 :::
 
 ::: {.pub-entry}
-[2017]{.pub-year} &nbsp;
-[Phase Equilibria and Condensed Phase Properties for Fluorinated Alkanes via First Principles Simulations]{.pub-title}  
+[2017]{.pub-year}
+[Phase Equilibria and Condensed Phase Properties for Fluorinated Alkanes via First Principles Simulations]{.pub-title}
 [**Goel H**, Butler C, Windom Z, Rai N. *Chemistry Select* 2017, 2, 11969–11976]{.pub-journal}
+[First-principles thermodynamic properties for hydrofluorocarbons (HFCs) — supporting design and selection of low-global-warming-potential refrigerants as alternatives to older HFCs.]{.pub-note}
+::: {.pub-tags}
+[HFCs]{.pub-tag} [Refrigerants]{.pub-tag} [DFT]{.pub-tag} [Thermodynamics]{.pub-tag} [Phase Equilibria]{.pub-tag}
+:::
 :::
 
 ::: {.pub-entry}
-[2016]{.pub-year} &nbsp;
-[Vapor Liquid Equilibria of Hydrofluorocarbons Using Dispersion-Corrected and Nonlocal Density Functionals]{.pub-title}  
+[2016]{.pub-year}
+[Vapor Liquid Equilibria of Hydrofluorocarbons Using Dispersion-Corrected and Nonlocal Density Functionals]{.pub-title}
 [**Goel H**, Butler C, Windom Z, Rai N. *J. Chem. Theory Comput.* 2016, 12, 3295–3304]{.pub-journal}
+[Showed that dispersion-corrected DFT significantly improves VLE predictions for HFCs — an important methodological advance for accurately modeling fluorinated refrigerant properties.]{.pub-note}
+::: {.pub-tags}
+[HFCs]{.pub-tag} [DFT-D]{.pub-tag} [Dispersion Correction]{.pub-tag} [VLE]{.pub-tag} [Refrigerants]{.pub-tag}
+:::
 :::
 
 ::: {.pub-entry}
-[2014]{.pub-year} &nbsp;
-[Estimation of Interfacial Tension for Immiscible and Partially Miscible Liquid Systems by Dissipative Particle Dynamics]{.pub-title}  
+[2014]{.pub-year}
+[Estimation of Interfacial Tension for Immiscible and Partially Miscible Liquid Systems by Dissipative Particle Dynamics]{.pub-title}
 [**Goel H**, Chandran R, Mitra K, Majumdar S, Ray P. *Chem. Phys. Lett.* 2014, 600, 62–67]{.pub-journal}
+[Applied dissipative particle dynamics (DPD) to predict interfacial tension for immiscible and partially miscible liquid systems — relevant to emulsion stability, liquid–liquid extraction, and chemical process design.]{.pub-note}
+::: {.pub-tags}
+[DPD]{.pub-tag} [Interfacial Tension]{.pub-tag} [Liquid Mixtures]{.pub-tag} [Mesoscale Simulation]{.pub-tag}
+:::
 :::
 
 ---
@@ -108,6 +185,11 @@ toc: true
 - **APS Meeting 2018**, New Orleans — *Accuracy of DFT to Predict Vapor Liquid Equilibria*
 
 ### Posters
+- **AIChE 2014**, Atlanta — *Octanol Partition Coefficient for Trichloroethylene via Molecular Simulations*
+- **AIChE 2015**, Salt Lake City — *Force Field Development of Chloroethenes*
+- **AIChE 2016**, San Francisco — *Predicting Octanol-Water Partition Coefficient and Force Field Development for NDMA*
+- **AIChE 2016**, San Francisco — *Modeling Sorption and Phase Equilibria using CP2K Software Suite*
+- **CCTCC 2017**, Jackson, MS — *Modeling Phase and Sorption Equilibria using CP2K Software Suite*
 - **BPS 2019** — *Comparison of Functional Group Affinity Patterns from Additive vs Drude Polarizable Force Fields (SILCS)*
 - **BPS 2021** — *Capturing Water-mediated Interactions During Protein–Ligand Binding with SILCS*
 - **SOT 2023** — *Assessing kidney injury induced by mercuric chloride in guinea pigs*
@@ -120,4 +202,4 @@ toc: true
 
 **Memberships:** American Institute of Chemical Engineers (AIChE) · Biophysical Society (BPS) · Society of Toxicology (SOT)
 
-**Peer reviewer** for: *ACS Med. Chem. Lett.*, *J. Chem. Inf. Model.*, *J. Phys. Chem. Lett.*, *Chem. Sci.*, *J. Chem. Eng. Data*, *RSC Med. Chem.*, *New J. Chem.*, *Mach. Learn.: Sci. Technol.*, *Front. Genet.*, *Molecules*, *Int. J. Mol. Sci.*, *New J. Phys.*, *BBA–General Subjects*, and more.
+**Peer reviewer** for: *ACS Med. Chem. Lett.*, *J. Chem. Inf. Model.*, *J. Phys. Chem. Lett.*, *Chem. Sci.*, *J. Chem. Eng. Data*, *RSC Med. Chem.*, *New J. Chem.*, *Mach. Learn.: Sci. Technol.*, *Front. Genet.*, *Molecules*, *Int. J. Mol. Sci.*, *New J. Phys.*, *BBA–General Subjects*, *ChemEngineering*, *Materials*, *Processes*, *Applied Science*, *Metals*, *Catalysts*, *Symmetry*, *Computation*

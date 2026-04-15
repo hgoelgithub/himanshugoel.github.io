@@ -12,59 +12,65 @@ toc: true
 
 ## Professional summary
 
-Experienced Computational Scientist with over 7 years of interdisciplinary experience in computational chemistry, biology, and toxicology. Strong background in computer-aided drug design, predictive toxicology, cheminformatics, bioinformatics, toxicogenomics, molecular dynamics, Monte Carlo, DFT, RNA-Seq, high-throughput screening, multiOMICS, and real-world datasets. Proficient in deep learning, transfer learning, generative AI, LLM, RAG, and agentic AI applied to real-world applications.
+Experienced Computational Scientist with over 7 years of interdisciplinary experience in computational chemistry, biology, and toxicology. Possesses a strong background in computer-aided drug design, predictive toxicology, cheminformatics, bioinformatics, toxicogenomics, molecular dynamics, Monte Carlo, DFT, RNA-Seq, high-throughput screening, electrophysiological, in vivo and in vitro assays, multi-OMICS, NAM, and real-world datasets. Skilled in integrating diverse experimental data to inform translational research and drug design workflows using advanced AI/ML techniques and statistical analysis. Proficient in deep learning, transfer learning, generative AI, LLM, RAG, and agentic AI applied to real-world applications. Demonstrates a strong ability to collaborate with cross-functional teams, including biologists, chemists, toxicologists, and software engineers, to validate in silico findings and develop robust computational pipelines that enhance data interpretation and translational impact.
 
 ---
 
 ## Work experience
 
 ### Computational Research Scientist II
-**BHSAI, Henry M. Jackson Foundation for the Advancement of Military Medicine** · Frederick, MD  
+**BHSAI, Henry M. Jackson Foundation for the Advancement of Military Medicine** · Frederick, MD
 *Feb 2022 – Mar 2025*
 
-- Data curation & visualization of large-scale biological and chemical datasets (PCA, t-SNE, UMAP, clustering, heatmaps)
-- Generative AI for novel molecular structure generation and drug repurposing
-- ML models (DNN, GNN, transformer LLMs) for compound classification against neurotoxicity-relevant GPCR targets
-- Computational neurotoxicity assessment of 200+ chemicals via Multi-Electrode Array (MEA) assay data
-- Integrative toxicogenomics: RNA-Seq pipelines for in vivo/in vitro rat, guinea pig, and human hepatocyte data
-- DEG analysis for liver/kidney injury biomarkers; in vitro–in vivo correlation and cross-species analysis
-- ADMET profiling with vNN-ADMET/SwissADME for risk assessment
-- Funded by DoD, DTRA, NIH, and AFRL
+- **Data curation & visualization:** Managed and visualized large-scale biological and chemical datasets, performing feature importance, data cleaning, PCA, t-SNE, UMAP, clustering, heatmaps, pattern recognition, and statistical interpretation
+- **Generative AI in drug discovery:** Utilized generative AI techniques to generate novel molecular structures, enhancing model predictions and supporting drug repurposing applications
+- **ML models for compound classification:** Developed ML models (traditional ML, DNNs, GNNs, transformer-based LLMs) to classify active/inactive compounds for neurotoxicity-relevant GPCR targets using public databases
+- **Computational neurotoxicity assessment:** Neurotoxicity assessment of 200+ chemicals based on high-dimensional Multi-Electrode Array (MEA) assay data (electrical activity of neurons)
+- **Integrative computational neurotoxicity profiling:** Integrated high-throughput data with dose-response modeling (tcplfit2) to characterize neurotoxic effects; explored chemical structure–MEA response profile relationships; incorporated chemical–protein interactions and molecular features
+- **Toxicogenomics studies:** Developed and implemented RNA-Seq pipelines for in vivo and in vitro animal (rat, guinea pig) and human (pooled hepatocyte) data; conducted DEG analysis for liver/kidney injury biomarkers; performed in vitro–in vivo correlation and cross-species analysis
+- **Integrating genomics, bioinformatics, and toxicology** to enhance understanding of chemical impact on human health and improve safety assessments
+- **ADMET profiling** with vNN-ADMET/SwissADME for risk assessment of chemical compounds
+- Supported web development and program upgrades in collaboration with the IT team
+- Collaborated with cross-functional teams including biologists, toxicologists, and software engineers on DoD, DTRA, NIH, and AFRL funded projects
 
 ---
 
 ### Postdoctoral Researcher
-**Computer-Aided Drug Design Center, University of Maryland Baltimore** · Baltimore, MD  
-*May 2018 – Feb 2022*  
+**Computer-Aided Drug Design Center, University of Maryland Baltimore** · Baltimore, MD
+*May 2018 – Feb 2022*
 *Advisor: Prof. Alexander D. MacKerell, Jr.*
 
-- Developed and deployed computational workflows for early-phase drug discovery: protein prep, SILCS FragMaps, pharmacophore modeling, virtual screening, docking, SAR analysis
-- Benchmarked SILCS protein-ligand relative binding affinities against FEP methods
-- Designed SILCS workflow for polarizable force fields and MD simulations
-- Developed **SILCS-MC Water** — a novel technique to predict water networks in binding pockets
-- COVID-19: Applied SILCS CADD workflow targeting SARS-CoV-2 spike protein for antiviral drug development
-- hERG1 safety pharmacology: predictive models integrating SILCS + physicochemical properties
+- **Computational drug discovery framework:** Spearheaded development and deployment of workflows supporting early-phase drug discovery — protein structure preparation, SILCS FragMaps, hotspot analysis, pharmacophore modeling, virtual screening, molecular docking, and SAR analysis
+- **Protein-ligand binding affinity:** Employed SILCS technology to compute protein-ligand relative binding affinities and benchmarked against FEP methods
+- **Polarizable force field and MD simulations:** Designed SILCS workflow for polarizable force fields and MD to assess protein-ligand energetics, molecular interactions, and docking scores
+- **Water network modeling:** Developed and validated **SILCS-MC Water** — a novel technique to accurately predict water networks in binding pockets and their impact on ligand binding affinity and pose
+- **Imaging probe development:** Investigated alpha-synuclein fibril binding using polarizable SILCS calculations and SAR analysis to elucidate probe–target interactions
+- **COVID-19 drug discovery:** Applied SILCS-based CADD workflow targeting SARS-CoV-2 spike protein for antiviral drug development
+- **Target-specific modeling:** Designed predictive models for hERG1 blockade integrating SILCS modeling and physicochemical properties to support safety pharmacology profiling
+- Partnered with multidisciplinary teams to facilitate data-driven decision making and translate in silico predictions to actionable insights
 
 ---
 
 ### Research Assistant
-**Mississippi State University** · Starkville, MS  
-*Aug 2013 – May 2018*  
+**Mississippi State University** · Starkville, MS
+*Aug 2013 – May 2018*
 *Advisor: Prof. Neeraj Rai*
+*Thesis: Modeling Phase and Sorption Equilibria using First Principles Simulations*
 
-- Predicted vapor-liquid equilibria (VLE), saturated vapor pressures, and critical properties via DFT/Monte Carlo
-- Adsorption equilibria, transport properties, and structural mechanisms for ionic liquids
-- Novel "cluster translation moves" algorithm in CP2K MC suite
-- TraPPE classical force field development for organic molecules
-- Octanol-water partition coefficients and solvation free energies for NDMA and trichloroethylene
+- **VLE & thermodynamic properties:** Predicted vapor–liquid equilibria (VLE), saturated vapor pressures, critical properties, boiling points, and structural properties via DFT/classical Monte Carlo simulations
+- **Adsorption & transport in ionic liquids:** Predicted adsorption equilibria, transport properties, vibrational spectra, and structural mechanisms for ionic liquids with gases via first-principles simulations
+- **DFT exchange-correlation functionals:** Employed multiple DFT functionals for computing condensed-phase properties and dimer energetics with high accuracy
+- **Algorithm development in CP2K:** Developed novel "cluster translation moves" algorithm for sampling strongly associating fluids in the CP2K MC suite
+- **Force field development:** Classical TraPPE force field development for organic molecules
+- **Partition coefficient & free energy prediction:** Predicted octanol-water partition coefficients and hydration/solvation free energies for NDMA and trichloroethylene
 
 ---
 
 ### Research Assistant
-**Indian Institute of Technology Hyderabad** · Hyderabad, India  
+**Indian Institute of Technology Hyderabad** · Hyderabad, India
 *Dec 2011 – Jul 2013*
 
-- Interfacial properties for multiple liquid systems via dissipative particle dynamics
+- **Interfacial science:** Computed interfacial properties for multiple liquid systems via dissipative particle dynamics
 
 ---
 
@@ -82,13 +88,89 @@ Experienced Computational Scientist with over 7 years of interdisciplinary exper
 
 **Programming:** Python · R · Fortran · C · C++ · Bash · SQL · OpenMP · OpenACC
 
-**Simulation software:** CHARMM · OpenMM · Schrödinger Suite · GROMACS · NAMD · SILCS · AutoDock Vina · Gaussian · CP2K · CPMD · MOE · Discovery Studio · VMD · PyMol · KNIME · Molpro · Matlab
+**Simulation software:** CHARMM · OpenMM · Schrödinger Suite · GROMACS · NAMD · SILCS · AutoDock Vina · Gaussian · CP2K · CPMD · MOE · Discovery Studio · KNIME · Molpro · Matlab · VMD · PyMol
 
-**ML / AI:** Random Forest · XGBoost · Naïve Bayes · DNN · GNN · Transformers/LLMs · PyTorch · TensorFlow · DeepChem · LangChain · LangGraph · RAG · Agentic AI
+**ML / AI:** Regression · Random Forest · Naïve Bayes · XGBoost · DNN · GNN · Transformers/LLMs · PyTorch · TensorFlow · DeepChem · Custom LLM Workflows · LangChain · LangGraph · RAG · Agentic AI
 
-**Visualization:** Matplotlib · Seaborn · RDKit · PyMol · VMD
+**Visualization:** Matplotlib · RDKit · VMD · PyMol
 
-**Platforms:** GitHub · HPC clusters · Docker · Cloud computing (AWS/GCP)
+**Platforms:** GitHub · HPC clusters · Docker · Cloud computing
+
+**Online Courses:** Machine Learning & Data Science · Agentic AI Engineering
+
+---
+
+## Journal publications
+
+1. **Goel H**, Chandran R, Mitra K, Majumdar S, Ray P. "Estimation of Interfacial Tension for Immiscible and Partially Miscible Liquid Systems by Dissipative Particle Dynamics." *Chem. Phys. Lett.* 2014, 600, 62–67.
+
+2. **Goel H**, Butler C, Windom Z, Rai N. "Vapor Liquid Equilibria of Hydrofluorocarbons Using Dispersion-Corrected and Nonlocal Density Functionals." *J. Chem. Theory Comput.* 2016, 12, 3295–3304.
+
+3. **Goel H**, Jackson A, Windom Z, Rai N. "Performance of Density Functionals for Modeling Vapor Liquid Equilibria of CO₂ and SO₂." *J. Comp. Chem.* 2018, 12, 3295–3304.
+
+4. **Goel H**, Butler C, Windom Z, Rai N. "Phase Equilibria and Condensed Phase Properties for Fluorinated Alkanes via First Principles Simulations." *Chemistry Select* 2017, 2, 11969–11976.
+
+5. Howlader MS, Venkatesan S, **Goel H**, French WT, Rai N. "Solubility of CO₂ in Triglycerides using Monte Carlo Simulations." *Fluid Phase Equilib.* 2018, 476, 39–47.
+
+6. **Goel H**, Rai N. "Transferable Potentials for Chloroethenes: Insights into Nonideal Solution Behavior of Environmental Contaminants." *ACS Omega* 2018, 3, 3646–3654.
+
+7. **Goel H**, Ling S, Ellis BN, Taconi A, Slater B, Rai N. "Predicting Vapor Liquid Equilibria using Density Functional Theory: A Case Study of Argon." *J. Chem. Phys.* 2018, 148, 224501.
+
+8. **Goel H**, Windom Z, Jackson A, Rai N. "Absorption of CO₂ in Triethyl(butyl)phosphonium 2-Cyanopyrrolide Ionic Liquid via First Principles Simulations." *J. Mol. Liq.* 2019, 292, 111323.
+
+9. **Goel H**, Yu W, Ustach V, Aytenfisu AH, Sun D, MacKerell Jr. AD. "Impact of Electronic Polarizability on Protein Functional Group Interactions." *Phys. Chem. Chem. Phys.* 2020, 22, 6848.
+
+10. **Goel H**, Hazel A, Ustach V, Jo S, Yu W, MacKerell Jr. AD. "Rapid and Accurate Estimation of Protein-Ligand Relative Binding Affinities using Site-Identification by Ligand Competitive Saturation." *Chem. Sci.* 2021, 12, 8844–8858.
+
+11. **Goel H**, Hazel A, Yu W, Jo S, MacKerell Jr. AD. "Application of Site-Identification by Ligand Competitive Saturation (SILCS) in Computer-Aided Drug Design." *New J. Chem.* 2022, 46, 919–932.
+
+12. **Goel H**, Yu W, MacKerell Jr. AD. "hERG Blockade Prediction by Combining Site Identification by Ligand Competitive Saturation and Physicochemical Properties." *Chemistry* 2022, 4, 630–646.
+
+13. **Goel H**, Printz RL, Shiota C, Estes SK, Pannala VR, AbdulHameed MDM, Shiota M, Wallqvist A. "Assessing Kidney Injury Induced by Mercuric Chloride in Guinea Pigs with In Vivo and In Vitro Experiments." *Int. J. Mol. Sci.* 2023, 24, 7434.
+
+14. **Goel H**, Printz RL, Pannala VR, AbdulHameed MDM, Wallqvist A. "Probing Liver Injuries Induced by Thioacetamide in Human In Vitro Pooled Hepatocyte Experiments." *Int. J. Mol. Sci.* 2024, 25, 3265.
+
+15. Kumar A, **Goel H**, Yu W, Zhao M, MacKerell Jr. AD. "Modeling Ligand Binding Site Water Networks with Site-Identification by Ligand Competitive Saturation: Impact on Ligand Binding Orientations and Relative Binding Affinities." *J. Chem. Theory Comput.* 2024, 20, 11032–11048.
+
+---
+
+## Conference contributions
+
+**Talks**
+
+- **Goel H**, Rai N. Force Field Development of Chloroethenes. *AIChE 2014*, Atlanta, USA.
+- **Goel H**, Rai N. Vapor Liquid Co-existence Curves for Hydrofluorocarbons via First Principles Monte Carlo Simulations. *AIChE 2014*, Atlanta, USA.
+- **Goel H**, Butler C, Windom Z, Rai N. Vapor Liquid Equilibria of Hydrofluoromethanes via First Principles Monte Carlo Simulations. *AIChE 2015*, Salt Lake City, USA.
+- **Goel H**, Jackson A, Windom Z, Rai N. Exploring Bulk Phase and Structural Properties for CO₂ and SO₂ via First Principles Calculations. *AIChE 2016*, San Francisco, USA.
+- **Goel H**, Rai N. Accuracy of Density Functional Theory to Predict Vapor Liquid Equilibria. *APS Meeting 2018*, New Orleans, USA.
+
+**Posters**
+
+- **Goel H**, Venkatesan S, Rai N. Predicting Octanol-Water Partition Coefficient and Force Field Development for NDMA via Molecular Simulations. *AIChE 2016*, USA.
+- Rai N, **Goel H**, Butler C, Windom Z, Jackson A. Modeling Sorption and Phase Equilibria using CP2K Software Suite. *AIChE 2016*, San Francisco, USA.
+- **Goel H**, Rai N. Force Field Development of Chloroethenes. *AIChE 2015*, Salt Lake City, USA.
+- **Goel H**, Venkatesan S, Rai N. Octanol Partition Coefficient for Trichloroethylene via Molecular Simulations. *AIChE 2014*, Atlanta, USA.
+- **Goel H**, Rai N. Modeling Phase and Sorption Equilibria using CP2K Software Suite. *CCTCC 2017*, Jackson, MS, USA.
+- **Goel H**, Sun D, Yu W, MacKerell AD. Comparison of Functional Group Affinity Patterns from Additive versus Drude Polarizable Force Fields from SILCS. *BPS 2019*.
+- **Goel H**, Kumar A, MacKerell Jr. AD. "Capturing Water-mediated Interactions During Protein-Ligand Binding with the SILCS Approach." *BPS 2021*.
+- **Goel H**, Printz RL, Shiota C, Estes SK, Pannala VR, AbdulHameed MDM, Shiota M, Wallqvist A. "Assessing Kidney Injury Induced by Mercuric Chloride in Guinea Pigs." *SOT 2023*.
+- **Goel H**, Printz RL, Pannala VR, AbdulHameed MDM, Wallqvist A. "Probing Liver Injuries Induced by Thioacetamide in Human In Vitro Pooled Hepatocyte Experiments." *SOT 2024*.
+
+---
+
+## Professional involvement
+
+- **Memberships:** American Institute of Chemical Engineers (AIChE) · Biophysical Society (BPS) · Society of Toxicology (SOT)
+- **Poster Chair:** Computational Toxicology I, SOT 2024
+- **Peer Reviewer:** ACS Medicinal Chemistry Letters · J. Chemical Information and Modeling · J. Physical Chemistry Letters · Chemical Science · J. Chemical Engineering & Data · RSC Medicinal Chemistry · New Journal of Chemistry · Machine Learning: Science and Technology · Royal Society Open Science · Frontiers in Genetics · Molecules · Int. J. Molecular Sciences · New Journal of Physics · BBA-General Subjects · ChemEngineering · Materials · Processes · Applied Science · Metals · Catalysts · Symmetry · Computation
+
+---
+
+## Teaching experience
+
+- **Teaching Assistant** — Advanced Chemical Engineering Thermodynamics, IIT Hyderabad, India *(Aug 2012 – Dec 2012)*
+- **Laboratory Instructor** — Introduction to Chemical Engineering Lab, IIT Hyderabad, India *(Jan 2013 – May 2013)*
+- **Laboratory Instructor** — Unit Operations Lab, Mississippi State University *(Aug 2015 – May 2016)*
 
 ---
 
@@ -103,4 +185,26 @@ Experienced Computational Scientist with over 7 years of interdisciplinary exper
 
 ## References
 
-Available upon request. See [Research](research.qmd) page for advisor contact information.
+::: {.references-grid}
+
+**Dr. Neeraj Rai**
+Professor, Dave C. Swalm School of Chemical Engineering
+Mississippi State University
+[neerajrai@che.msstate.edu](mailto:neerajrai@che.msstate.edu) · +1-662-325-0790
+
+**Dr. Alexander D. MacKerell, Jr.**
+Professor, CADD Center, School of Pharmacy
+University of Maryland, Baltimore
+[alex@outerbanks.umaryland.edu](mailto:alex@outerbanks.umaryland.edu) · +1-410-706-7442
+
+**Dr. Saptarshi Majumdar**
+Professor, Department of Chemical Engineering
+Indian Institute of Technology, Hyderabad
+[saptarshi@iith.ac.in](mailto:saptarshi@iith.ac.in) · +91-040-23016087
+
+**Dr. Anders Wallqvist**
+Deputy Director, DOD Biotechnology HPC Software Institute
+US Army Medical Research and Development Command
+[awallqvist@bhsai.org](mailto:awallqvist@bhsai.org) · 301-619-1989
+
+:::

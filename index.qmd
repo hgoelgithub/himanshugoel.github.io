@@ -8,7 +8,7 @@ toc: false
 # *Himanshu Goel*
 
 ::: {.tagline}
-Computational Scientist · Drug Design · AI/ML · Cheminformatics · Bioinformatics  
+Computational Biology, Chemistry & Toxicology · Drug Design · AI/ML · Cheminformatics · Bioinformatics  
 📍 Ellicott City, MD · [hgchemical@gmail.com](mailto:hgchemical@gmail.com) · [Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID&hl=en&sortby=pubdate)
 :::
 
@@ -22,34 +22,16 @@ Computational Scientist · Drug Design · AI/ML · Cheminformatics · Bioinforma
 :::
 :::
 
-::: {.stats-row}
-::: {.stat-card}
-[7+]{.number}
-[Years Experience]{.label}
-:::
-::: {.stat-card}
-[15]{.number}
-[Publications]{.label}
-:::
-::: {.stat-card}
-[20+]{.number}
-[Conference Talks]{.label}
-:::
-::: {.stat-card}
-[10+]{.number}
-[Python Repos]{.label}
-:::
-:::
 
 ---
 
 ## About me
 
-I'm a computational scientist with 7+ years of interdisciplinary experience spanning computational chemistry, biology, and toxicology. My work sits at the intersection of **AI/ML**, **drug discovery**, and **translational safety research**.
+Experienced Computational Scientist with over 7 years of interdisciplinary experience in computational chemistry, biology, and toxicology. Possesses a strong background in computer-aided drug design, predictive toxicology, cheminformatics, bioinformatics, toxicogenomics, molecular dynamics, Monte Carlo, DFT, RNA-Seq, high-throughput screening, electrophysiological, in vivo and in vitro assays, multi-OMICS, NAM, and real-world datasets. Skilled in integrating diverse experimental data to inform translational research and drug design workflows using advanced AI/ML techniques and statistical analysis. Proficient in deep learning, transfer learning, generative AI, LLM, RAG, and agentic AI applied to real-world applications. Demonstrates a strong ability to collaborate with cross-functional teams, including biologists, chemists, toxicologists, and software engineers, to validate in silico findings and develop robust computational pipelines that enhance data interpretation and translational impact.
 
-Most recently I was a Computational Research Scientist II at [BHSAI / Henry M. Jackson Foundation](https://www.hjf.org/) (Frederick, MD), working on DoD, DTRA, NIH, and AFRL funded projects. Before that I was a postdoctoral researcher in [Dr. Alex MacKerell's CADD Center](https://www.outerbanks.umaryland.edu/mackerell/) at the University of Maryland, Baltimore, where I developed and applied the [SILCS technology](https://silcsbio.com/) for protein-ligand binding and drug design.
+Most recently I was a Computational Research Scientist II at [BHSAI / Henry M. Jackson Foundation](https://bhsai.org/) (Frederick, MD), working on DoD, DTRA, NIH, and AFRL funded projects. Before that I was a postdoctoral researcher in [Dr. Alex MacKerell's CADD Center](https://mackerell.umaryland.edu/) at the University of Maryland, Baltimore, where I developed and applied the [SILCS technology](https://silcsbio.com/) for protein-ligand binding and drug design.
 
-**I'm currently open to new opportunities** in computational drug discovery, AI/ML for life sciences, or research scientist roles. [Get in touch →](mailto:hgchemical@gmail.com)
+**I'm currently open to new opportunities** in computational toxicology, drug screening & discovery, AI/ML for life sciences, or research scientist roles. [Get in touch →](mailto:hgchemical@gmail.com)
 
 → [See my full education & research journey](education.qmd)  
 → [15 publications on Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID&hl=en&sortby=pubdate)
@@ -72,79 +54,10 @@ Most recently I was a Computational Research Scientist II at [BHSAI / Henry M. J
 [ADMET Profiling]{.expertise-pill}
 [Cheminformatics / RDKit]{.expertise-pill}
 [Multi-Electrode Array (MEA)]{.expertise-pill}
-[MultiOMICS]{.expertise-pill}
+[In Vivo & In Vitro Assays]{.expertise-pill}
+[Multi-OMICS]{.expertise-pill}
+[New Approach Methodologies (NAM)]{.expertise-pill}
 [Python · R · Fortran · C++]{.expertise-pill}
 :::
 
 ---
-
-## Latest tutorials
-
-::: {.tutorial-grid}
-
-::: {.tutorial-card}
-[🧬]{.card-emoji}
-#### Drug Design & CADD
-Virtual screening, molecular docking, SILCS FragMaps, pharmacophore modeling, and SAR analysis with Python.
-[Browse tutorials →](tutorials/drug-design.qmd)
-:::
-
-::: {.tutorial-card}
-[⚗️]{.card-emoji}
-#### Cheminformatics
-RDKit from scratch, fingerprints, similarity search, SMARTS patterns, chemical space visualization.
-[Browse tutorials →](tutorials/cheminformatics.qmd)
-:::
-
-::: {.tutorial-card}
-[🧫]{.card-emoji}
-#### Bioinformatics & RNA-Seq
-DESeq2, differential expression, pathway analysis, in vitro–in vivo correlation, cross-species analysis.
-[Browse tutorials →](tutorials/bioinformatics.qmd)
-:::
-
-::: {.tutorial-card}
-[🤖]{.card-emoji}
-#### Agentic AI
-Building AI agents with LangGraph, LangChain, RAG pipelines, and tool-calling LLMs applied to science.
-[Browse tutorials →](tutorials/agentic-ai.qmd)
-:::
-
-::: {.tutorial-card}
-[📊]{.card-emoji}
-#### ML & Multimodal
-GNNs, transformers for molecules, transfer learning, DeepChem, PyTorch for life-science tasks.
-[Browse tutorials →](tutorials/ml-multimodal.qmd)
-:::
-
-:::
-
----
-
-## Selected publications
-
-::: {.pub-entry}
-[2024]{.pub-year} &nbsp;
-[Probing liver injuries induced by thioacetamide in human *in vitro* pooled hepatocyte experiments]{.pub-title}  
-[Goel H et al. *Int. J. Mol. Sci.* 2024, 25, 3265]{.pub-journal}
-:::
-
-::: {.pub-entry}
-[2024]{.pub-year} &nbsp;
-[Modeling Ligand Binding Site Water Networks with SILCS: Impact on Ligand Binding Orientations and Relative Binding Affinities]{.pub-title}  
-[Kumar A, **Goel H**, Yu W et al. *J. Chem. Theory Comput.* 2024, 20, 11032–11048]{.pub-journal}
-:::
-
-::: {.pub-entry}
-[2022]{.pub-year} &nbsp;
-[hERG Blockade prediction by combining SILCS and Physicochemical Properties]{.pub-title}  
-[**Goel H**, Yu W, MacKerell Jr. AD. *Chemistry* 2022, 4, 630–646]{.pub-journal}
-:::
-
-::: {.pub-entry}
-[2021]{.pub-year} &nbsp;
-[Rapid and Accurate Estimation of Protein–Ligand Relative Binding Affinities using SILCS]{.pub-title}  
-[**Goel H**, Hazel A, Ustach V et al. *Chem. Sci.* 2021, 12, 8844–8858]{.pub-journal}
-:::
-
-[View all 15 publications →](research.qmd)
