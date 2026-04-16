@@ -51,33 +51,102 @@ A curated collection of open resources I find useful in my daily research. Contr
 
 ---
 
+## AI agents for biomedical research
+
+A growing ecosystem of LLM-based agents is transforming biomedical science. Below is a curated overview across three domains. Full interactive map: [broad.io/AIAgent](http://broad.io/AIAgent)
+
+### Drug discovery & development
+
+| Agent | Capability |
+|-------|------------|
+| **DrugAgent** | Drug–target interaction prediction |
+| **MolRL-MGPT** | De novo small-molecule design |
+| **ProtAgents** | De novo protein design |
+| **BioDiscoveryAgent** | Drug target efficacy validation |
+| **The Virtual Lab** | Nanobody design and optimization |
+| **ChemCrow** | Chemical synthesis reasoning and execution |
+| **LLM-RDF** | Automated chemical synthesis planning |
+| **CACTUS** | General drug discovery assistance |
+| **SwiftDossier** | Automated target dossier generation |
+| **DrugPilot** | End-to-end drug discovery pipeline |
+| **PRIME** | Protein engineering support |
+| **Chemist-X** | Reaction condition recommendation |
+
+### Multi-omic & bioinformatics analysis
+
+| Agent | Capability |
+|-------|------------|
+| **CellAgent** | Single-cell RNA-seq analysis |
+| **AutoBA** | Multi-omic data analysis |
+| **GeneAgent** | Gene-set analysis |
+| **GenoTEX** | Gene–trait association analysis |
+| **BioAgents** | Bioinformatics workflow automation |
+| **Genesis** | Systems biology automation |
+| **CRISPR-GPT** | CRISPR experiment design |
+| **CellAgentChat** | Cell–cell interaction analysis |
+| **DrBioRight 2.0** | Cancer proteomics analysis |
+| **Agentomics-ML** | Omics data modeling |
+| **BIA** | Single-cell RNA-seq analysis |
+| **Biomni** | General biomedical research assistance |
+| **CellForge** | Virtual cell modeling |
+
+---
+
 ## Learning resources
 
-### Computational drug discovery
-- [TeachOpenCADD](https://github.com/volkamerlab/teachopencadd) — Jupyter notebook tutorials on CADD
-- [Practical Cheminformatics](https://practicalcheminformatics.blogspot.com/) — Pat Walters' excellent blog
+### Computational drug discovery & cheminformatics
+
+- [TeachOpenCADD](https://github.com/volkamerlab/teachopencadd) — Jupyter notebook tutorials on CADD (Volkamer Lab)
+- [Practical Cheminformatics Tutorials](https://github.com/PatWalters/practical_cheminformatics_tutorials) — Pat Walters' hands-on notebooks
+- [Useful RDKit Utils](https://patwalters.github.io/Useful-RDKit-Utils/) — RDKit utility functions and recipes
+- [Cheminformatics Teaching Material](https://github.com/Sulstice/Cheminformatics-Teaching-Material) — Broad introductory material
+- [LibreTexts Cheminformatics Course](https://chem.libretexts.org/Courses/Intercollegiate_Courses/Cheminformatics) — Free online textbook-style course
+- [ML in Chemical Science & Engineering](https://github.com/webbtheosim/CBE512-MLinChmSciEng) — Princeton CBE512 course materials
+- [Practical Programming in Chemistry](https://github.com/schwallergroup/2024-practical-programming-in-chemistry-exercises) — Schwaller group exercises
+- [ML Drug Discovery](https://github.com/nrflynn2/ml-drug-discovery) — Notebooks covering key ML workflows
+- [Molecule Predictions Resource List](https://github.com/stars/sgbaird/lists/molecule-predictions) — Curated GitHub list of molecular ML repos
+- [GNNs for Chemists](https://github.com/HFooladi/GNNs-For-Chemists) — Graph neural network tutorials for chemistry
+- [FastProp Property Prediction](https://github.com/JacksonBurns/fastprop) — Fast molecular property prediction demo
+- [In Silico Chemistry](https://www.insilicochemistry.io) — Computational chemistry learning platform
 - [SILCS documentation](https://silcsbio.com/) — Official SILCS methodology resources
 
-### Agentic AI & LLMs
+### Agentic AI & LLMs for science
+
+- [Broad AI Agent Map](http://broad.io/AIAgent) — Interactive overview of AI agents across biomedical domains
+- [GeneSight BioRAG](https://github.com/Bioinformatics-AI-Lab/genesight-biorag) — RAG-based bioinformatics assistant
+- [bioSkills (GPTomics)](https://github.com/GPTomics/bioSkills) — LLM-assisted bioinformatics skill building
 - [LangChain docs](https://python.langchain.com/)
 - [LangGraph documentation](https://langchain-ai.github.io/langgraph/)
 - [DeepLearning.AI short courses](https://www.deeplearning.ai/short-courses/) — Agentic AI, RAG, tool-use
 
-### Bioinformatics
+### Bioinformatics & multi-omics
+
+- [Computational Biology Course (UNC)](https://biodatascience.github.io/compbio/) — Open course materials
+- [OmicNetR](https://github.com/ppchaudhary/OmicNetR) — Multi-omics network analysis in R
+- [Unsupervised Analysis Pipelines (epigen)](https://github.com/epigen/unsupervised_analysis) — Epigenomics unsupervised analysis workflows
+- [Genomic-Based Classification](https://github.com/Nicolas-Radomski/GenomicBasedClassification) — ML classifiers for genomic data
 - [Bioconductor workflows](https://www.bioconductor.org/help/workflows/)
-- [DESeq2 vignette](https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
 - [Harvard Chan Bioinformatics Core training](https://hbctraining.github.io/main/)
 
+### Machine learning for healthcare
+
+- [MIT ML for Healthcare (6.S897)](https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/pages/lecture-notes/) — Lecture notes from MIT's ML healthcare course
+- [BRAID (Genentech)](https://github.com/Genentech/BRAID) — Drug combination synergy modeling
+
 ### Molecular dynamics
+
 - [CHARMM-GUI](https://www.charmm-gui.org/) — System builder for MD simulations
 - [GROMACS tutorials](http://www.mdtutorials.com/gmx/)
+- [MDANCE](https://github.com/mqcomplab/MDANCE) — Molecular dynamics analysis and clustering toolkit
 - [OpenMM documentation](https://openmm.org/)
 
 ---
 
-## Recommended books
+## Recommended books & texts
 
 - *Introduction to Computational Chemistry* — Frank Jensen
 - *The Art of Drug Synthesis* — Johnson & Li
 - *Bioinformatics Algorithms* — Compeau & Pevzner (free online)
 - *Deep Learning for the Life Sciences* — Bharath Ramsundar et al. (O'Reilly)
+- *Machine Learning for Drug Discovery* — [Manning](https://www.manning.com/books/machine-learning-for-drug-discovery)
+- *Deep Learning for Molecules and Materials* — [dmol.pub](https://dmol.pub/) (free online)

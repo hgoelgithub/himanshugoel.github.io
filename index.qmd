@@ -6,19 +6,21 @@ toc: false
 
 ::: {.hero-banner}
 # *Himanshu Goel*
-
-::: {.tagline}
-Computational Biology, Chemistry & Toxicology · Drug Design · AI/ML · Cheminformatics · Bioinformatics  
+::: {.tagline} 
 📍 Ellicott City, MD · [hgchemical@gmail.com](mailto:hgchemical@gmail.com) · [Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID&hl=en&sortby=pubdate)
 :::
 
 ::: {.badge-row}
+[☠️ Computational Toxicology]{.hero-badge}
+[🧫 New Approach Methodologies]{.hero-badge}
 [🧬 Computational Drug Discovery]{.hero-badge}
-[🤖 Agentic AI / LLM]{.hero-badge}
 [🧪 Toxicogenomics]{.hero-badge}
+[🤖 Agentic AI / LLM]{.hero-badge}
+[🤖 Machine Learning]{.hero-badge}
 [📊 Cheminformatics]{.hero-badge}
 [🔬 Bioinformatics]{.hero-badge}
-[⚙️ Molecular Dynamics]{.hero-badge}
+[📊 Multi-OMICS]{.hero-badge}
+[⚙️ Monte Carlo & Molecular Dynamics]{.hero-badge}
 :::
 :::
 
@@ -27,37 +29,227 @@ Computational Biology, Chemistry & Toxicology · Drug Design · AI/ML · Cheminf
 
 ## About me
 
-Experienced Computational Scientist with over 7 years of interdisciplinary experience in computational chemistry, biology, and toxicology. Possesses a strong background in computer-aided drug design, predictive toxicology, cheminformatics, bioinformatics, toxicogenomics, molecular dynamics, Monte Carlo, DFT, RNA-Seq, high-throughput screening, electrophysiological, in vivo and in vitro assays, multi-OMICS, NAM, and real-world datasets. Skilled in integrating diverse experimental data to inform translational research and drug design workflows using advanced AI/ML techniques and statistical analysis. Proficient in deep learning, transfer learning, generative AI, LLM, RAG, and agentic AI applied to real-world applications. Demonstrates a strong ability to collaborate with cross-functional teams, including biologists, chemists, toxicologists, and software engineers, to validate in silico findings and develop robust computational pipelines that enhance data interpretation and translational impact.
+Computational Scientist with 12+ years of experience at the intersection of **predictive toxicology**, **drug design**, and **AI/ML for life sciences**. I build end-to-end computational pipelines that turn complex biological and chemical data into actionable safety and efficacy insights.
 
-Most recently I was a Computational Research Scientist II at [BHSAI / Henry M. Jackson Foundation](https://bhsai.org/) (Frederick, MD), working on DoD, DTRA, NIH, and AFRL funded projects. Before that I was a postdoctoral researcher in [Dr. Alex MacKerell's CADD Center](https://mackerell.umaryland.edu/) at the University of Maryland, Baltimore, where I developed and applied the [SILCS technology](https://silcsbio.com/) for protein-ligand binding and drug design.
+In my most recent role at [BHSAI / Henry M. Jackson Foundation](https://bhsai.org/) (DoD, DTRA, NIH, AFRL funded), I led computational toxicology research across several core areas:
 
-**I'm currently open to new opportunities** in computational toxicology, drug screening & discovery, AI/ML for life sciences, or research scientist roles. [Get in touch →](mailto:hgchemical@gmail.com)
+- **Data curation & visualization:** Extracted actionable insights from large-scale chemical and biological datasets using PCA, t-SNE, UMAP, clustering, and heatmaps.
+- **ML for compound classification:** Trained DNN, GNN, and transformer LLM classifiers to predict compound activity at neurotoxicity-relevant GPCR targets.
+- **Generative AI:** Designed novel molecular structures and supported drug repurposing.
+- **Neurotoxicity:** Assessed 200+ chemicals using high-throughput Multi-Electrode Array (MEA) data, integrating dose-response modeling (tcplfit2) and chemical–protein interaction networks to build mechanistic toxicity profiles.
+- **Toxicogenomics:** Developed RNA-Seq pipelines across rat, guinea pig, and human hepatocyte systems — identifying biomarkers for liver and kidney injury and performing cross-species IVIVE analysis. Published in *Int. J. Mol. Sci.* (2023, 2024).
+- **Integrative safety science:** Connected genomics, bioinformatics, and toxicology to improve understanding of chemical impact on human health and strengthen safety assessments.
+- **ADMET profiling:** Conducted risk assessment of chemical compounds using vNN-ADMET and SwissADME.
+
+Before that, I was a postdoctoral researcher at [Dr. MacKerell's CADD Center](https://mackerell.umaryland.edu/), University of Maryland, where I developed the [SILCS](https://silcsbio.com/) drug discovery framework — including a novel water network modeling method (SILCS-MC Water) — and built predictive models for hERG cardiotoxicity and protein–ligand binding affinity.
+
+I thrive in cross-functional environments, collaborating closely with biologists, toxicologists, and software engineers to translate in silico findings into real-world impact. I have a strong commitment to **New Approach Methodologies (NAM)** — integrating in vitro assays, multi-OMICS, and computational models to reduce animal testing and improve translational safety prediction.
+
+**I'm currently open to new opportunities** in computational toxicology, drug screening & discovery, or AI/ML for life sciences. [Get in touch →](mailto:hgchemical@gmail.com)
 
 → [See my full education & research journey](education.qmd)  
-→ [15 publications on Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID&hl=en&sortby=pubdate)
+→ [Publications on Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID&hl=en&sortby=pubdate)
 
 ---
 
 ## Expertise
 
 ::: {.expertise-grid}
+[Predictive Toxicology]{.expertise-pill}
+[New Approach Methodologies (NAM)]{.expertise-pill}
+[Toxicogenomics / RNA-Seq]{.expertise-pill}
+[Multi-Electrode Array (MEA)]{.expertise-pill}
+[In Vivo & In Vitro Assays]{.expertise-pill}
+[ADMET Profiling]{.expertise-pill}
+[Multi-OMICS]{.expertise-pill}
 [Computer-Aided Drug Design]{.expertise-pill}
+[Method Development & Application]{.expertise-pill}
+[Virtual Screening (Ligand & Structure-Based)]{.expertise-pill}
+[Pharmacophore-Based Screening]{.expertise-pill}
+[Molecular Docking]{.expertise-pill}
+[Free Energy Perturbation (FEP)]{.expertise-pill}
+[Hit Identification & Hit Expansion]{.expertise-pill}
+[Hit-to-Lead Selection]{.expertise-pill}
+[Lead Optimization]{.expertise-pill}
+[Cheminformatics / RDKit]{.expertise-pill}
+[Substructure & Similarity Search]{.expertise-pill}
+[Fingerprint · Graph · Embedding-Based Search]{.expertise-pill}
+[Pharmacophore Searching]{.expertise-pill}
+[Fragment-Based Design]{.expertise-pill}
+[QSAR & Ligand-Based Modeling]{.expertise-pill}
+[Active Learning & Iterative Design]{.expertise-pill}
+[Physics-Based Simulations (MD · FEP)]{.expertise-pill}
 [Machine Learning / Deep Learning]{.expertise-pill}
 [Graph Neural Networks]{.expertise-pill}
 [LLM / Transformer models]{.expertise-pill}
 [Agentic AI / LangGraph / RAG]{.expertise-pill}
-[Generative AI for molecules]{.expertise-pill}
-[RNA-Seq / Toxicogenomics]{.expertise-pill}
+[Generative Chemistry (SMILES · Graph · Diffusion)]{.expertise-pill}
+[ML Model Integration into Workflows]{.expertise-pill}
 [Molecular Dynamics]{.expertise-pill}
 [Monte Carlo Simulations]{.expertise-pill}
 [DFT / Quantum Chemistry]{.expertise-pill}
-[ADMET Profiling]{.expertise-pill}
-[Cheminformatics / RDKit]{.expertise-pill}
-[Multi-Electrode Array (MEA)]{.expertise-pill}
-[In Vivo & In Vitro Assays]{.expertise-pill}
-[Multi-OMICS]{.expertise-pill}
-[New Approach Methodologies (NAM)]{.expertise-pill}
 [Python · R · Fortran · C++]{.expertise-pill}
+[Cross-Functional Collaboration]{.expertise-pill}
+[Biologist · Chemist · Toxicologist · Engineer Teams]{.expertise-pill}
+[Scientific Communication & Reporting]{.expertise-pill}
 :::
 
 ---
+
+## Technical skills
+
+```{=html}
+<style>
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.2rem;
+  margin: 1.2rem 0 2rem;
+}
+.skill-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.1rem 1.3rem;
+  background: white;
+}
+.skill-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.skill-card-icon { font-size: 1.3rem; }
+.skill-card-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #1a5276;
+}
+.skill-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.skill-pill {
+  display: inline-block;
+  background: #f0f4f8;
+  color: #2c3e50;
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 20px;
+  border: 1px solid #dde3ea;
+}
+</style>
+
+<div class="skills-grid">
+
+  <div class="skill-card">
+    <div class="skill-card-header">
+      <span class="skill-card-icon">💻</span>
+      <span class="skill-card-title">Programming Languages</span>
+    </div>
+    <div class="skill-pills">
+      <span class="skill-pill">Python</span>
+      <span class="skill-pill">R</span>
+      <span class="skill-pill">Fortran</span>
+      <span class="skill-pill">C</span>
+      <span class="skill-pill">C++</span>
+      <span class="skill-pill">Bash</span>
+      <span class="skill-pill">SQL</span>
+      <span class="skill-pill">OpenMP</span>
+      <span class="skill-pill">OpenACC</span>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-card-header">
+      <span class="skill-card-icon">⚗️</span>
+      <span class="skill-card-title">Simulation Software</span>
+    </div>
+    <div class="skill-pills">
+      <span class="skill-pill">CHARMM</span>
+      <span class="skill-pill">OpenMM</span>
+      <span class="skill-pill">Schrödinger Suite</span>
+      <span class="skill-pill">GROMACS</span>
+      <span class="skill-pill">NAMD</span>
+      <span class="skill-pill">SILCS</span>
+      <span class="skill-pill">AutoDock Vina</span>
+      <span class="skill-pill">Gaussian</span>
+      <span class="skill-pill">CP2K</span>
+      <span class="skill-pill">CPMD</span>
+      <span class="skill-pill">MOE</span>
+      <span class="skill-pill">Discovery Studio</span>
+      <span class="skill-pill">KNIME</span>
+      <span class="skill-pill">Molpro</span>
+      <span class="skill-pill">Matlab</span>
+      <span class="skill-pill">VMD</span>
+      <span class="skill-pill">PyMol</span>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-card-header">
+      <span class="skill-card-icon">🤖</span>
+      <span class="skill-card-title">ML / AI & Visualization</span>
+    </div>
+    <div class="skill-pills">
+      <span class="skill-pill">Random Forest</span>
+      <span class="skill-pill">XGBoost</span>
+      <span class="skill-pill">Naïve Bayes</span>
+      <span class="skill-pill">Regression</span>
+      <span class="skill-pill">Deep Neural Networks</span>
+      <span class="skill-pill">Graph Neural Networks</span>
+      <span class="skill-pill">Transformer LLMs</span>
+      <span class="skill-pill">PyTorch</span>
+      <span class="skill-pill">TensorFlow</span>
+      <span class="skill-pill">DeepChem</span>
+      <span class="skill-pill">LangChain</span>
+      <span class="skill-pill">LangGraph</span>
+      <span class="skill-pill">RAG</span>
+      <span class="skill-pill">Agentic AI</span>
+      <span class="skill-pill">Custom LLM Workflows</span>
+      <span class="skill-pill">Matplotlib</span>
+      <span class="skill-pill">RDKit</span>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-card-header">
+      <span class="skill-card-icon">☠️</span>
+      <span class="skill-card-title">Computational Toxicology</span>
+    </div>
+    <div class="skill-pills">
+      <span class="skill-pill">vNN-ADMET</span>
+      <span class="skill-pill">SwissADME</span>
+      <span class="skill-pill">tcplfit2</span>
+      <span class="skill-pill">Kallisto</span>
+      <span class="skill-pill">RNA-Seq</span>
+      <span class="skill-pill">DESeq2</span>
+      <span class="skill-pill">MEA Data Analysis</span>
+      <span class="skill-pill">Dose-Response Modeling</span>
+      <span class="skill-pill">IVIVE</span>
+      <span class="skill-pill">Pathway Enrichment</span>
+      <span class="skill-pill">Neurotoxicity Profiling</span>
+      <span class="skill-pill">Multi Electrode Array (MEA)</span>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-card-header">
+      <span class="skill-card-icon">🛠️</span>
+      <span class="skill-card-title">Tools & Platforms</span>
+    </div>
+    <div class="skill-pills">
+      <span class="skill-pill">GitHub</span>
+      <span class="skill-pill">HPC Clusters</span>
+      <span class="skill-pill">Docker</span>
+      <span class="skill-pill">Cloud Computing</span>
+      <span class="skill-pill">AWS</span>
+      <span class="skill-pill">GCP</span>
+    </div>
+  </div>
+
+</div>
+```

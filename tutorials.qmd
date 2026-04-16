@@ -15,6 +15,10 @@ Click any badge → sign in with Google → **Runtime → Run All**. All depende
 
 :::
 
+::: {.callout-note}
+Found a bug or discrepancy? Please [get in touch via email](mailto:hgchemical@gmail.com) — feedback is always welcome.
+:::
+
 ---
 
 ## Drug design & CADD

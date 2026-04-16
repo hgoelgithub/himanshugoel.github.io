@@ -305,44 +305,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link" href="./education.html"> 
 <span class="menu-text">Education &amp; Journey</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tutorials" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Tutorials</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-tutorials">    
-        <li>
-    <a class="dropdown-item" href="./tutorials/drug-design.qmd">
- <span class="dropdown-text">Drug Design &amp; CADD</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./tutorials/cheminformatics.qmd">
- <span class="dropdown-text">Cheminformatics</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./tutorials/bioinformatics.qmd">
- <span class="dropdown-text">Bioinformatics &amp; RNA-Seq</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./tutorials/agentic-ai.qmd">
- <span class="dropdown-text">Agentic AI</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./tutorials/ml-multimodal.qmd">
- <span class="dropdown-text">ML &amp; Multimodal</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./code.html"> 
-<span class="menu-text">Code &amp; GitHub</span></a>
+    <a class="nav-link" href="./tutorials.html"> 
+<span class="menu-text">Tutorials</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./resources.html" aria-current="page"> 
 <span class="menu-text">Resources</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
-<span class="menu-text">CV</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -385,14 +354,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#molecular-chemical-databases" id="toc-molecular-chemical-databases" class="nav-link active" data-scroll-target="#molecular-chemical-databases">Molecular &amp; chemical databases</a></li>
   <li><a href="#toxicology-safety-resources" id="toc-toxicology-safety-resources" class="nav-link" data-scroll-target="#toxicology-safety-resources">Toxicology &amp; safety resources</a></li>
   <li><a href="#key-python-libraries" id="toc-key-python-libraries" class="nav-link" data-scroll-target="#key-python-libraries">Key Python libraries</a></li>
+  <li><a href="#ai-agents-for-biomedical-research" id="toc-ai-agents-for-biomedical-research" class="nav-link" data-scroll-target="#ai-agents-for-biomedical-research">AI agents for biomedical research</a>
+  <ul class="collapse">
+  <li><a href="#drug-discovery-development" id="toc-drug-discovery-development" class="nav-link" data-scroll-target="#drug-discovery-development">Drug discovery &amp; development</a></li>
+  <li><a href="#multi-omic-bioinformatics-analysis" id="toc-multi-omic-bioinformatics-analysis" class="nav-link" data-scroll-target="#multi-omic-bioinformatics-analysis">Multi-omic &amp; bioinformatics analysis</a></li>
+  </ul></li>
   <li><a href="#learning-resources" id="toc-learning-resources" class="nav-link" data-scroll-target="#learning-resources">Learning resources</a>
   <ul class="collapse">
-  <li><a href="#computational-drug-discovery" id="toc-computational-drug-discovery" class="nav-link" data-scroll-target="#computational-drug-discovery">Computational drug discovery</a></li>
-  <li><a href="#agentic-ai-llms" id="toc-agentic-ai-llms" class="nav-link" data-scroll-target="#agentic-ai-llms">Agentic AI &amp; LLMs</a></li>
-  <li><a href="#bioinformatics" id="toc-bioinformatics" class="nav-link" data-scroll-target="#bioinformatics">Bioinformatics</a></li>
+  <li><a href="#computational-drug-discovery-cheminformatics" id="toc-computational-drug-discovery-cheminformatics" class="nav-link" data-scroll-target="#computational-drug-discovery-cheminformatics">Computational drug discovery &amp; cheminformatics</a></li>
+  <li><a href="#agentic-ai-llms-for-science" id="toc-agentic-ai-llms-for-science" class="nav-link" data-scroll-target="#agentic-ai-llms-for-science">Agentic AI &amp; LLMs for science</a></li>
+  <li><a href="#bioinformatics-multi-omics" id="toc-bioinformatics-multi-omics" class="nav-link" data-scroll-target="#bioinformatics-multi-omics">Bioinformatics &amp; multi-omics</a></li>
+  <li><a href="#machine-learning-for-healthcare" id="toc-machine-learning-for-healthcare" class="nav-link" data-scroll-target="#machine-learning-for-healthcare">Machine learning for healthcare</a></li>
   <li><a href="#molecular-dynamics" id="toc-molecular-dynamics" class="nav-link" data-scroll-target="#molecular-dynamics">Molecular dynamics</a></li>
   </ul></li>
-  <li><a href="#recommended-books" id="toc-recommended-books" class="nav-link" data-scroll-target="#recommended-books">Recommended books</a></li>
+  <li><a href="#recommended-books-texts" id="toc-recommended-books-texts" class="nav-link" data-scroll-target="#recommended-books-texts">Recommended books &amp; texts</a></li>
   </ul>
 </nav>
     </div>
@@ -586,30 +561,184 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </table>
 <hr>
 </section>
+<section id="ai-agents-for-biomedical-research" class="level2">
+<h2 class="anchored" data-anchor-id="ai-agents-for-biomedical-research">AI agents for biomedical research</h2>
+<p>A growing ecosystem of LLM-based agents is transforming biomedical science. Below is a curated overview across three domains. Full interactive map: <a href="http://broad.io/AIAgent">broad.io/AIAgent</a></p>
+<section id="drug-discovery-development" class="level3">
+<h3 class="anchored" data-anchor-id="drug-discovery-development">Drug discovery &amp; development</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Agent</th>
+<th>Capability</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>DrugAgent</strong></td>
+<td>Drug–target interaction prediction</td>
+</tr>
+<tr class="even">
+<td><strong>MolRL-MGPT</strong></td>
+<td>De novo small-molecule design</td>
+</tr>
+<tr class="odd">
+<td><strong>ProtAgents</strong></td>
+<td>De novo protein design</td>
+</tr>
+<tr class="even">
+<td><strong>BioDiscoveryAgent</strong></td>
+<td>Drug target efficacy validation</td>
+</tr>
+<tr class="odd">
+<td><strong>The Virtual Lab</strong></td>
+<td>Nanobody design and optimization</td>
+</tr>
+<tr class="even">
+<td><strong>ChemCrow</strong></td>
+<td>Chemical synthesis reasoning and execution</td>
+</tr>
+<tr class="odd">
+<td><strong>LLM-RDF</strong></td>
+<td>Automated chemical synthesis planning</td>
+</tr>
+<tr class="even">
+<td><strong>CACTUS</strong></td>
+<td>General drug discovery assistance</td>
+</tr>
+<tr class="odd">
+<td><strong>SwiftDossier</strong></td>
+<td>Automated target dossier generation</td>
+</tr>
+<tr class="even">
+<td><strong>DrugPilot</strong></td>
+<td>End-to-end drug discovery pipeline</td>
+</tr>
+<tr class="odd">
+<td><strong>PRIME</strong></td>
+<td>Protein engineering support</td>
+</tr>
+<tr class="even">
+<td><strong>Chemist-X</strong></td>
+<td>Reaction condition recommendation</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="multi-omic-bioinformatics-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="multi-omic-bioinformatics-analysis">Multi-omic &amp; bioinformatics analysis</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Agent</th>
+<th>Capability</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>CellAgent</strong></td>
+<td>Single-cell RNA-seq analysis</td>
+</tr>
+<tr class="even">
+<td><strong>AutoBA</strong></td>
+<td>Multi-omic data analysis</td>
+</tr>
+<tr class="odd">
+<td><strong>GeneAgent</strong></td>
+<td>Gene-set analysis</td>
+</tr>
+<tr class="even">
+<td><strong>GenoTEX</strong></td>
+<td>Gene–trait association analysis</td>
+</tr>
+<tr class="odd">
+<td><strong>BioAgents</strong></td>
+<td>Bioinformatics workflow automation</td>
+</tr>
+<tr class="even">
+<td><strong>Genesis</strong></td>
+<td>Systems biology automation</td>
+</tr>
+<tr class="odd">
+<td><strong>CRISPR-GPT</strong></td>
+<td>CRISPR experiment design</td>
+</tr>
+<tr class="even">
+<td><strong>CellAgentChat</strong></td>
+<td>Cell–cell interaction analysis</td>
+</tr>
+<tr class="odd">
+<td><strong>DrBioRight 2.0</strong></td>
+<td>Cancer proteomics analysis</td>
+</tr>
+<tr class="even">
+<td><strong>Agentomics-ML</strong></td>
+<td>Omics data modeling</td>
+</tr>
+<tr class="odd">
+<td><strong>BIA</strong></td>
+<td>Single-cell RNA-seq analysis</td>
+</tr>
+<tr class="even">
+<td><strong>Biomni</strong></td>
+<td>General biomedical research assistance</td>
+</tr>
+<tr class="odd">
+<td><strong>CellForge</strong></td>
+<td>Virtual cell modeling</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
 <section id="learning-resources" class="level2">
 <h2 class="anchored" data-anchor-id="learning-resources">Learning resources</h2>
-<section id="computational-drug-discovery" class="level3">
-<h3 class="anchored" data-anchor-id="computational-drug-discovery">Computational drug discovery</h3>
+<section id="computational-drug-discovery-cheminformatics" class="level3">
+<h3 class="anchored" data-anchor-id="computational-drug-discovery-cheminformatics">Computational drug discovery &amp; cheminformatics</h3>
 <ul>
-<li><a href="https://github.com/volkamerlab/teachopencadd">TeachOpenCADD</a> — Jupyter notebook tutorials on CADD</li>
-<li><a href="https://practicalcheminformatics.blogspot.com/">Practical Cheminformatics</a> — Pat Walters’ excellent blog</li>
+<li><a href="https://github.com/volkamerlab/teachopencadd">TeachOpenCADD</a> — Jupyter notebook tutorials on CADD (Volkamer Lab)</li>
+<li><a href="https://github.com/PatWalters/practical_cheminformatics_tutorials">Practical Cheminformatics Tutorials</a> — Pat Walters’ hands-on notebooks</li>
+<li><a href="https://patwalters.github.io/Useful-RDKit-Utils/">Useful RDKit Utils</a> — RDKit utility functions and recipes</li>
+<li><a href="https://github.com/Sulstice/Cheminformatics-Teaching-Material">Cheminformatics Teaching Material</a> — Broad introductory material</li>
+<li><a href="https://chem.libretexts.org/Courses/Intercollegiate_Courses/Cheminformatics">LibreTexts Cheminformatics Course</a> — Free online textbook-style course</li>
+<li><a href="https://github.com/webbtheosim/CBE512-MLinChmSciEng">ML in Chemical Science &amp; Engineering</a> — Princeton CBE512 course materials</li>
+<li><a href="https://github.com/schwallergroup/2024-practical-programming-in-chemistry-exercises">Practical Programming in Chemistry</a> — Schwaller group exercises</li>
+<li><a href="https://github.com/nrflynn2/ml-drug-discovery">ML Drug Discovery</a> — Notebooks covering key ML workflows</li>
+<li><a href="https://github.com/stars/sgbaird/lists/molecule-predictions">Molecule Predictions Resource List</a> — Curated GitHub list of molecular ML repos</li>
+<li><a href="https://github.com/HFooladi/GNNs-For-Chemists">GNNs for Chemists</a> — Graph neural network tutorials for chemistry</li>
+<li><a href="https://github.com/JacksonBurns/fastprop">FastProp Property Prediction</a> — Fast molecular property prediction demo</li>
+<li><a href="https://www.insilicochemistry.io">In Silico Chemistry</a> — Computational chemistry learning platform</li>
 <li><a href="https://silcsbio.com/">SILCS documentation</a> — Official SILCS methodology resources</li>
 </ul>
 </section>
-<section id="agentic-ai-llms" class="level3">
-<h3 class="anchored" data-anchor-id="agentic-ai-llms">Agentic AI &amp; LLMs</h3>
+<section id="agentic-ai-llms-for-science" class="level3">
+<h3 class="anchored" data-anchor-id="agentic-ai-llms-for-science">Agentic AI &amp; LLMs for science</h3>
 <ul>
+<li><a href="http://broad.io/AIAgent">Broad AI Agent Map</a> — Interactive overview of AI agents across biomedical domains</li>
+<li><a href="https://github.com/Bioinformatics-AI-Lab/genesight-biorag">GeneSight BioRAG</a> — RAG-based bioinformatics assistant</li>
+<li><a href="https://github.com/GPTomics/bioSkills">bioSkills (GPTomics)</a> — LLM-assisted bioinformatics skill building</li>
 <li><a href="https://python.langchain.com/">LangChain docs</a></li>
 <li><a href="https://langchain-ai.github.io/langgraph/">LangGraph documentation</a></li>
 <li><a href="https://www.deeplearning.ai/short-courses/">DeepLearning.AI short courses</a> — Agentic AI, RAG, tool-use</li>
 </ul>
 </section>
-<section id="bioinformatics" class="level3">
-<h3 class="anchored" data-anchor-id="bioinformatics">Bioinformatics</h3>
+<section id="bioinformatics-multi-omics" class="level3">
+<h3 class="anchored" data-anchor-id="bioinformatics-multi-omics">Bioinformatics &amp; multi-omics</h3>
 <ul>
+<li><a href="https://biodatascience.github.io/compbio/">Computational Biology Course (UNC)</a> — Open course materials</li>
+<li><a href="https://github.com/ppchaudhary/OmicNetR">OmicNetR</a> — Multi-omics network analysis in R</li>
+<li><a href="https://github.com/epigen/unsupervised_analysis">Unsupervised Analysis Pipelines (epigen)</a> — Epigenomics unsupervised analysis workflows</li>
+<li><a href="https://github.com/Nicolas-Radomski/GenomicBasedClassification">Genomic-Based Classification</a> — ML classifiers for genomic data</li>
 <li><a href="https://www.bioconductor.org/help/workflows/">Bioconductor workflows</a></li>
-<li><a href="https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html">DESeq2 vignette</a></li>
 <li><a href="https://hbctraining.github.io/main/">Harvard Chan Bioinformatics Core training</a></li>
+</ul>
+</section>
+<section id="machine-learning-for-healthcare" class="level3">
+<h3 class="anchored" data-anchor-id="machine-learning-for-healthcare">Machine learning for healthcare</h3>
+<ul>
+<li><a href="https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/pages/lecture-notes/">MIT ML for Healthcare (6.S897)</a> — Lecture notes from MIT’s ML healthcare course</li>
+<li><a href="https://github.com/Genentech/BRAID">BRAID (Genentech)</a> — Drug combination synergy modeling</li>
 </ul>
 </section>
 <section id="molecular-dynamics" class="level3">
@@ -617,18 +746,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li><a href="https://www.charmm-gui.org/">CHARMM-GUI</a> — System builder for MD simulations</li>
 <li><a href="http://www.mdtutorials.com/gmx/">GROMACS tutorials</a></li>
+<li><a href="https://github.com/mqcomplab/MDANCE">MDANCE</a> — Molecular dynamics analysis and clustering toolkit</li>
 <li><a href="https://openmm.org/">OpenMM documentation</a></li>
 </ul>
 <hr>
 </section>
 </section>
-<section id="recommended-books" class="level2">
-<h2 class="anchored" data-anchor-id="recommended-books">Recommended books</h2>
+<section id="recommended-books-texts" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-books-texts">Recommended books &amp; texts</h2>
 <ul>
 <li><em>Introduction to Computational Chemistry</em> — Frank Jensen</li>
 <li><em>The Art of Drug Synthesis</em> — Johnson &amp; Li</li>
 <li><em>Bioinformatics Algorithms</em> — Compeau &amp; Pevzner (free online)</li>
 <li><em>Deep Learning for the Life Sciences</em> — Bharath Ramsundar et al.&nbsp;(O’Reilly)</li>
+<li><em>Machine Learning for Drug Discovery</em> — <a href="https://www.manning.com/books/machine-learning-for-drug-discovery">Manning</a></li>
+<li><em>Deep Learning for Molecules and Materials</em> — <a href="https://dmol.pub/">dmol.pub</a> (free online)</li>
 </ul>
 
 
@@ -1154,36 +1286,105 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="fu">## Learning resources</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="fu">## AI agents for biomedical research</span></span>
 <span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="fu">### Computational drug discovery</span></span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">TeachOpenCADD</span><span class="co">](https://github.com/volkamerlab/teachopencadd)</span> — Jupyter notebook tutorials on CADD</span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Practical Cheminformatics</span><span class="co">](https://practicalcheminformatics.blogspot.com/)</span> — Pat Walters' excellent blog</span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">SILCS documentation</span><span class="co">](https://silcsbio.com/)</span> — Official SILCS methodology resources</span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="fu">### Agentic AI &amp; LLMs</span></span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">LangChain docs</span><span class="co">](https://python.langchain.com/)</span></span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">LangGraph documentation</span><span class="co">](https://langchain-ai.github.io/langgraph/)</span></span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">DeepLearning.AI short courses</span><span class="co">](https://www.deeplearning.ai/short-courses/)</span> — Agentic AI, RAG, tool-use</span>
-<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="fu">### Bioinformatics</span></span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Bioconductor workflows</span><span class="co">](https://www.bioconductor.org/help/workflows/)</span></span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">DESeq2 vignette</span><span class="co">](https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)</span></span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Harvard Chan Bioinformatics Core training</span><span class="co">](https://hbctraining.github.io/main/)</span></span>
-<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="fu">### Molecular dynamics</span></span>
-<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">CHARMM-GUI</span><span class="co">](https://www.charmm-gui.org/)</span> — System builder for MD simulations</span>
-<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">GROMACS tutorials</span><span class="co">](http://www.mdtutorials.com/gmx/)</span></span>
-<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">OpenMM documentation</span><span class="co">](https://openmm.org/)</span></span>
-<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="fu">## Recommended books</span></span>
-<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Introduction to Computational Chemistry* — Frank Jensen</span>
-<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*The Art of Drug Synthesis* — Johnson &amp; Li</span>
-<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Bioinformatics Algorithms* — Compeau &amp; Pevzner (free online)</span>
-<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Deep Learning for the Life Sciences* — Bharath Ramsundar et al. (O'Reilly)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>A growing ecosystem of LLM-based agents is transforming biomedical science. Below is a curated overview across three domains. Full interactive map: <span class="co">[</span><span class="ot">broad.io/AIAgent</span><span class="co">](http://broad.io/AIAgent)</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="fu">### Drug discovery &amp; development</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Agent <span class="pp">|</span> Capability <span class="pp">|</span></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="pp">|-------|------------|</span></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **DrugAgent** <span class="pp">|</span> Drug–target interaction prediction <span class="pp">|</span></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **MolRL-MGPT** <span class="pp">|</span> De novo small-molecule design <span class="pp">|</span></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **ProtAgents** <span class="pp">|</span> De novo protein design <span class="pp">|</span></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **BioDiscoveryAgent** <span class="pp">|</span> Drug target efficacy validation <span class="pp">|</span></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **The Virtual Lab** <span class="pp">|</span> Nanobody design and optimization <span class="pp">|</span></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **ChemCrow** <span class="pp">|</span> Chemical synthesis reasoning and execution <span class="pp">|</span></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **LLM-RDF** <span class="pp">|</span> Automated chemical synthesis planning <span class="pp">|</span></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **CACTUS** <span class="pp">|</span> General drug discovery assistance <span class="pp">|</span></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **SwiftDossier** <span class="pp">|</span> Automated target dossier generation <span class="pp">|</span></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **DrugPilot** <span class="pp">|</span> End-to-end drug discovery pipeline <span class="pp">|</span></span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **PRIME** <span class="pp">|</span> Protein engineering support <span class="pp">|</span></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Chemist-X** <span class="pp">|</span> Reaction condition recommendation <span class="pp">|</span></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a><span class="fu">### Multi-omic &amp; bioinformatics analysis</span></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Agent <span class="pp">|</span> Capability <span class="pp">|</span></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="pp">|-------|------------|</span></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **CellAgent** <span class="pp">|</span> Single-cell RNA-seq analysis <span class="pp">|</span></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **AutoBA** <span class="pp">|</span> Multi-omic data analysis <span class="pp">|</span></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **GeneAgent** <span class="pp">|</span> Gene-set analysis <span class="pp">|</span></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **GenoTEX** <span class="pp">|</span> Gene–trait association analysis <span class="pp">|</span></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **BioAgents** <span class="pp">|</span> Bioinformatics workflow automation <span class="pp">|</span></span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Genesis** <span class="pp">|</span> Systems biology automation <span class="pp">|</span></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **CRISPR-GPT** <span class="pp">|</span> CRISPR experiment design <span class="pp">|</span></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **CellAgentChat** <span class="pp">|</span> Cell–cell interaction analysis <span class="pp">|</span></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **DrBioRight 2.0** <span class="pp">|</span> Cancer proteomics analysis <span class="pp">|</span></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Agentomics-ML** <span class="pp">|</span> Omics data modeling <span class="pp">|</span></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **BIA** <span class="pp">|</span> Single-cell RNA-seq analysis <span class="pp">|</span></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Biomni** <span class="pp">|</span> General biomedical research assistance <span class="pp">|</span></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **CellForge** <span class="pp">|</span> Virtual cell modeling <span class="pp">|</span></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a><span class="fu">## Learning resources</span></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a><span class="fu">### Computational drug discovery &amp; cheminformatics</span></span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">TeachOpenCADD</span><span class="co">](https://github.com/volkamerlab/teachopencadd)</span> — Jupyter notebook tutorials on CADD (Volkamer Lab)</span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Practical Cheminformatics Tutorials</span><span class="co">](https://github.com/PatWalters/practical_cheminformatics_tutorials)</span> — Pat Walters' hands-on notebooks</span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Useful RDKit Utils</span><span class="co">](https://patwalters.github.io/Useful-RDKit-Utils/)</span> — RDKit utility functions and recipes</span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Cheminformatics Teaching Material</span><span class="co">](https://github.com/Sulstice/Cheminformatics-Teaching-Material)</span> — Broad introductory material</span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">LibreTexts Cheminformatics Course</span><span class="co">](https://chem.libretexts.org/Courses/Intercollegiate_Courses/Cheminformatics)</span> — Free online textbook-style course</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">ML in Chemical Science &amp; Engineering</span><span class="co">](https://github.com/webbtheosim/CBE512-MLinChmSciEng)</span> — Princeton CBE512 course materials</span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Practical Programming in Chemistry</span><span class="co">](https://github.com/schwallergroup/2024-practical-programming-in-chemistry-exercises)</span> — Schwaller group exercises</span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">ML Drug Discovery</span><span class="co">](https://github.com/nrflynn2/ml-drug-discovery)</span> — Notebooks covering key ML workflows</span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Molecule Predictions Resource List</span><span class="co">](https://github.com/stars/sgbaird/lists/molecule-predictions)</span> — Curated GitHub list of molecular ML repos</span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">GNNs for Chemists</span><span class="co">](https://github.com/HFooladi/GNNs-For-Chemists)</span> — Graph neural network tutorials for chemistry</span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">FastProp Property Prediction</span><span class="co">](https://github.com/JacksonBurns/fastprop)</span> — Fast molecular property prediction demo</span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">In Silico Chemistry</span><span class="co">](https://www.insilicochemistry.io)</span> — Computational chemistry learning platform</span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">SILCS documentation</span><span class="co">](https://silcsbio.com/)</span> — Official SILCS methodology resources</span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a><span class="fu">### Agentic AI &amp; LLMs for science</span></span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Broad AI Agent Map</span><span class="co">](http://broad.io/AIAgent)</span> — Interactive overview of AI agents across biomedical domains</span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">GeneSight BioRAG</span><span class="co">](https://github.com/Bioinformatics-AI-Lab/genesight-biorag)</span> — RAG-based bioinformatics assistant</span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">bioSkills (GPTomics)</span><span class="co">](https://github.com/GPTomics/bioSkills)</span> — LLM-assisted bioinformatics skill building</span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">LangChain docs</span><span class="co">](https://python.langchain.com/)</span></span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">LangGraph documentation</span><span class="co">](https://langchain-ai.github.io/langgraph/)</span></span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">DeepLearning.AI short courses</span><span class="co">](https://www.deeplearning.ai/short-courses/)</span> — Agentic AI, RAG, tool-use</span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a><span class="fu">### Bioinformatics &amp; multi-omics</span></span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Computational Biology Course (UNC)</span><span class="co">](https://biodatascience.github.io/compbio/)</span> — Open course materials</span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">OmicNetR</span><span class="co">](https://github.com/ppchaudhary/OmicNetR)</span> — Multi-omics network analysis in R</span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Unsupervised Analysis Pipelines (epigen)</span><span class="co">](https://github.com/epigen/unsupervised_analysis)</span> — Epigenomics unsupervised analysis workflows</span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Genomic-Based Classification</span><span class="co">](https://github.com/Nicolas-Radomski/GenomicBasedClassification)</span> — ML classifiers for genomic data</span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Bioconductor workflows</span><span class="co">](https://www.bioconductor.org/help/workflows/)</span></span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Harvard Chan Bioinformatics Core training</span><span class="co">](https://hbctraining.github.io/main/)</span></span>
+<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a><span class="fu">### Machine learning for healthcare</span></span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">MIT ML for Healthcare (6.S897)</span><span class="co">](https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/pages/lecture-notes/)</span> — Lecture notes from MIT's ML healthcare course</span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">BRAID (Genentech)</span><span class="co">](https://github.com/Genentech/BRAID)</span> — Drug combination synergy modeling</span>
+<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a><span class="fu">### Molecular dynamics</span></span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">CHARMM-GUI</span><span class="co">](https://www.charmm-gui.org/)</span> — System builder for MD simulations</span>
+<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">GROMACS tutorials</span><span class="co">](http://www.mdtutorials.com/gmx/)</span></span>
+<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">MDANCE</span><span class="co">](https://github.com/mqcomplab/MDANCE)</span> — Molecular dynamics analysis and clustering toolkit</span>
+<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">OpenMM documentation</span><span class="co">](https://openmm.org/)</span></span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a><span class="fu">## Recommended books &amp; texts</span></span>
+<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Introduction to Computational Chemistry* — Frank Jensen</span>
+<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*The Art of Drug Synthesis* — Johnson &amp; Li</span>
+<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Bioinformatics Algorithms* — Compeau &amp; Pevzner (free online)</span>
+<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Deep Learning for the Life Sciences* — Bharath Ramsundar et al. (O'Reilly)</span>
+<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Machine Learning for Drug Discovery* — <span class="co">[</span><span class="ot">Manning</span><span class="co">](https://www.manning.com/books/machine-learning-for-drug-discovery)</span></span>
+<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>*Deep Learning for Molecules and Materials* — <span class="co">[</span><span class="ot">dmol.pub</span><span class="co">](https://dmol.pub/)</span> (free online)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

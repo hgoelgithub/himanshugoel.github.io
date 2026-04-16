@@ -310,7 +310,7 @@ page-layout: full
     <div class="rcard-body">
       <h4>Toxicogenomics & RNA-Seq pipelines</h4>
       <p>Developed RNA-Seq pipelines for in vivo (rat, guinea pig) and in vitro (human hepatocyte) data. Conducted DEG analysis for liver and kidney injury biomarkers. Performed in vitro–in vivo correlation and cross-species analysis to enhance translational relevance. Published in <em>Int. J. Mol. Sci.</em> 2023, 2024.</p>
-      <span class="rcard-tag">RNA-Seq</span><span class="rcard-tag">DESeq2</span><span class="rcard-tag">IVIVE</span><span class="rcard-tag">Cross-Species</span>
+      <span class="rcard-tag">RNA-Seq</span><span class="rcard-tag">Kallisto</span><span class="rcard-tag">IVIVE</span><span class="rcard-tag">Cross-Species</span>
     </div>
   </div>
   <div class="rcard">
@@ -390,55 +390,6 @@ page-layout: full
       <span class="rcard-tag">DPD</span><span class="rcard-tag">Interfacial Science</span><span class="rcard-tag">Thermodynamics</span>
     </div>
   </div>
-</div>
-```
-
-<hr class="section-rule">
-
-## Technical skill proficiency
-
-```{=html}
-<div style="max-width: 640px;">
-
-<p style="font-size:0.85rem; color:#6c757d; margin-bottom:1.2rem;">Self-assessed proficiency across core competencies</p>
-
-<div class="skill-bar-wrap">
-  <div class="skill-label"><span>Python (scientific computing)</span><span>Expert</span></div>
-  <div class="skill-bar"><div class="skill-fill" style="width:95%"></div></div>
-</div>
-<div class="skill-bar-wrap">
-  <div class="skill-label"><span>Molecular dynamics & simulation</span><span>Expert</span></div>
-  <div class="skill-bar"><div class="skill-fill" style="width:93%"></div></div>
-</div>
-<div class="skill-bar-wrap">
-  <div class="skill-label"><span>Machine learning / deep learning</span><span>Advanced</span></div>
-  <div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div>
-</div>
-<div class="skill-bar-wrap">
-  <div class="skill-label"><span>Drug design & CADD (SILCS, Docking)</span><span>Expert</span></div>
-  <div class="skill-bar"><div class="skill-fill" style="width:95%"></div></div>
-</div>
-<div class="skill-bar-wrap">
-  <div class="skill-label"><span>RNA-Seq / Bioinformatics</span><span>Advanced</span></div>
-  <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
-</div>
-<div class="skill-bar-wrap">
-  <div class="skill-label"><span>Cheminformatics (RDKit)</span><span>Advanced</span></div>
-  <div class="skill-bar"><div class="skill-fill" style="width:87%"></div></div>
-</div>
-<div class="skill-bar-wrap">
-  <div class="skill-label"><span>Agentic AI / LangGraph / RAG</span><span>Proficient</span></div>
-  <div class="skill-bar"><div class="skill-fill" style="width:78%"></div></div>
-</div>
-<div class="skill-bar-wrap">
-  <div class="skill-label"><span>DFT / Quantum Chemistry</span><span>Advanced</span></div>
-  <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
-</div>
-<div class="skill-bar-wrap">
-  <div class="skill-label"><span>R (DESeq2, tidyverse)</span><span>Proficient</span></div>
-  <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
-</div>
-
 </div>
 ```
 
