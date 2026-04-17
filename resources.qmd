@@ -27,10 +27,10 @@ A curated collection of open resources I find useful in my daily research. Contr
 | Resource | Description | Link |
 |----------|-------------|------|
 | **ToxCast / CompTox** | EPA HTS data for 10,000+ chemicals | [comptox.epa.gov](https://comptox.epa.gov/) |
-| **hERG Central** | Curated hERG activity database | [chembl](https://www.ebi.ac.uk/chembl/) |
+| **hERG/Cardiotoxicity DB (RIKEN)** | hERG + multi-channel cardiotoxicity data (324K+ compounds) | [drugdesign.riken.jp](http://drugdesign.riken.jp/hERGdb/) |
 | **vNN-ADMET** | ADMET prediction server | [vnnadmet.bhsai.org](https://vnnadmet.bhsai.org/) |
 | **SwissADME** | ADME/drug-likeness predictor | [swissadme.ch](http://www.swissadme.ch/) |
-| **ADMETlab 2.0** | Comprehensive ADMET evaluation | [admetmesh.scbdd.com](https://admetmesh.scbdd.com/) |
+| **ADMETlab 3.0** | Comprehensive ADMET evaluation (latest version) | [admetlab3.scbdd.com](https://admetlab3.scbdd.com/) |
 | **DSSTox** | Distributed Structure Searchable Toxicity DB | [comptox.epa.gov](https://comptox.epa.gov/dashboard) |
 
 ---
